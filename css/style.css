@@ -61,9 +61,16 @@ header {
   position: sticky;
   top: 0;
   z-index: 10;
+  padding: 20px 0;
   background: linear-gradient(180deg, rgba(246,245,241,0.95), rgba(246,245,241,0.85));
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(223,229,225,0.72);
+}
+
+header .page-shell {
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 20px !important;
 }
 
 .header-inner {
@@ -71,13 +78,13 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 18px;
-  padding: 18px 0;
 }
 
 .logo-group {
   display: flex;
   align-items: center;
   gap: 12px;
+  line-height: 1;
 }
 
 .logo-group img {
@@ -86,12 +93,14 @@ header {
   border-radius: 16px;
   object-fit: cover;
   box-shadow: var(--shadow);
+  flex-shrink: 0;
 }
 
 .site-title {
   font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: -0.03em;
+  line-height: 1;
 }
 
 nav ul {
@@ -274,6 +283,36 @@ nav a:focus-visible {
 .feature-item {
   display: grid;
   gap: 10px;
+}
+
+.app-spotlight {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 22px;
+  margin-bottom: 24px;
+}
+
+.app-spotlight img {
+  width: 72px;
+  height: 72px;
+  border-radius: 22px;
+  background: var(--surface);
+  padding: 10px;
+  box-shadow: var(--shadow);
+  object-fit: contain;
+}
+
+.app-spotlight h3 {
+  margin: 0;
+  font-size: 1.35rem;
+}
+
+.app-spotlight p {
+  margin: 0;
+  color: var(--muted);
 }
 
 .feature-item strong {
