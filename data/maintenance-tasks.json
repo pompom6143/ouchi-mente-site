@@ -27,9 +27,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -47,12 +45,8 @@
       "tips": [
         "異音や強いにおいがある場合は使用を止めて点検を検討してください。"
       ],
-      "products": [
-
-      ],
-      "services": [
-
-      ],
+      "products": [],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -79,9 +73,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -99,17 +91,8 @@
       "tips": [
         "市販スプレーは故障リスクがあるため、説明書をよく確認してください。"
       ],
-      "products": [
-
-      ],
-      "services": [
-        {
-          "label": "エアコンクリーニングを相談する",
-          "description": "エアコン内部クリーニング検討で無理な作業や判断に迷う場合に相談できるサービスです。",
-          "url": "https://example.com",
-          "type": "a8"
-        }
-      ],
+      "products": [],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -148,9 +131,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -182,9 +163,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -236,9 +215,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -277,9 +254,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -305,9 +280,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -339,9 +312,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -367,9 +338,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -408,9 +377,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -449,9 +416,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -477,9 +442,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -511,9 +474,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -532,12 +493,8 @@
       "tips": [
         "外せないタイプや戻せない不安がある場合は触らないでください。"
       ],
-      "products": [
-
-      ],
-      "services": [
-
-      ],
+      "products": [],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -556,12 +513,8 @@
       "tips": [
         "機種ごとの外し方を確認してください。"
       ],
-      "products": [
-
-      ],
-      "services": [
-
-      ],
+      "products": [],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -588,14 +541,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-        {
-          "label": "専門業者に相談する",
-          "description": "排水フィルター掃除で無理な作業や判断に迷う場合に相談できるサービスです。",
-          "url": "https://example.com",
-          "type": "a8"
-        }
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -621,9 +567,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -663,9 +607,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -684,12 +626,8 @@
       "tips": [
         "庫内が熱い時は冷めてから作業してください。"
       ],
-      "products": [
-
-      ],
-      "services": [
-
-      ],
+      "products": [],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -715,9 +653,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -750,9 +686,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -778,9 +712,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -798,12 +730,8 @@
       "tips": [
         "集じんフィルターは水洗い不可の機種があります。"
       ],
-      "products": [
-
-      ],
-      "services": [
-
-      ],
+      "products": [],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -820,12 +748,8 @@
       "tips": [
         "直射日光や水洗い不可の素材に注意してください。"
       ],
-      "products": [
-
-      ],
-      "services": [
-
-      ],
+      "products": [],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -858,9 +782,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -887,9 +809,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -921,9 +841,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -956,14 +874,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-        {
-          "label": "雨樋の点検を相談する",
-          "description": "雨樋チェックで無理な作業や判断に迷う場合に相談できるサービスです。",
-          "url": "https://example.com",
-          "type": "a8"
-        }
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -982,17 +893,8 @@
       "tips": [
         "高所作業はしないでください。"
       ],
-      "products": [
-
-      ],
-      "services": [
-        {
-          "label": "外壁点検を相談する",
-          "description": "外壁チェックで無理な作業や判断に迷う場合に相談できるサービスです。",
-          "url": "https://example.com",
-          "type": "a8"
-        }
-      ],
+      "products": [],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -1010,17 +912,8 @@
       "tips": [
         "屋根には絶対に登らないでください。"
       ],
-      "products": [
-
-      ],
-      "services": [
-        {
-          "label": "屋根点検を相談する",
-          "description": "屋根チェックで無理な作業や判断に迷う場合に相談できるサービスです。",
-          "url": "https://example.com",
-          "type": "a8"
-        }
-      ],
+      "products": [],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -1059,9 +952,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -1088,9 +979,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -1108,17 +997,8 @@
       "tips": [
         "大きな劣化は専門業者に相談してください。"
       ],
-      "products": [
-
-      ],
-      "services": [
-        {
-          "label": "防水補修を相談する",
-          "description": "ベランダ・バルコニー防水チェックで無理な作業や判断に迷う場合に相談できるサービスです。",
-          "url": "https://example.com",
-          "type": "a8"
-        }
-      ],
+      "products": [],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -1163,9 +1043,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -1197,9 +1075,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -1238,9 +1114,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -1273,14 +1147,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-        {
-          "label": "専門業者に相談する",
-          "description": "給気口フィルター掃除で無理な作業や判断に迷う場合に相談できるサービスです。",
-          "url": "https://example.com",
-          "type": "a8"
-        }
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     },
     {
@@ -1314,14 +1181,7 @@
           "type": "rakuten"
         }
       ],
-      "services": [
-        {
-          "label": "退去前の相談先を確認する",
-          "description": "退去前チェックで無理な作業や判断に迷う場合に相談できるサービスです。",
-          "url": "https://example.com",
-          "type": "a8"
-        }
-      ],
+      "services": [],
       "updatedAt": "2026-05-07"
     }
   ]
