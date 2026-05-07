@@ -1,11 +1,10 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>おうちメンテ | 家のメンテナンスをわかりやすく整理する暮らしメディア</title>
-  <meta name="description" content="エアコン・お風呂・キッチン・排水口・ベランダの家メンテナンスをやさしく整理。おすすめ記事・アプリ紹介から今日できる対策まで。" />
+  <meta name="description" content="エアコン・お風呂・キッチン・排水口・ベランダの家メンテナンスをやさしく整理。掃除頻度や手順、季節ごとのおすすめメンテを暮らし目線で紹介します。" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -28,10 +27,11 @@
   <main class="page-shell">
     <section class="hero">
       <div class="hero-copy">
-        <h1>家のメンテナンス、ちゃんとできていますか？</h1>
-        <p>エアコン・カビ・排水口・換気扇など、放置すると困る家のメンテナンスを分かりやすく整理します。</p>
+        <span class="hero-kicker">暮らしのメンテナンスメディア</span>
+        <h1>家のメンテナンス、何から始めればいい？</h1>
+        <p>エアコン・お風呂・排水口・換気扇など、つい後回しになりがちな家の手入れを、頻度や手順からわかりやすく整理しました。</p>
         <div class="hero-actions">
-          <a class="btn" href="articles/index.html">記事を探す</a>
+          <a class="btn" href="articles/index.html">メンテナンス記事を探す</a>
           <a class="btn btn-secondary" href="app/index.html">アプリを見る</a>
         </div>
       </div>
@@ -39,33 +39,63 @@
 
     <section class="section">
       <div class="section-head">
+        <h2 class="section-title">よくある悩み</h2>
+        <p class="section-desc">忙しい毎日の中で、家の手入れは後回しになりがちです。まずは気になるところから、無理なく確認してみてください。</p>
+      </div>
+      <div class="grid worry-grid">
+        <article class="worry-card">
+          <h3>エアコン掃除、いつやればいいかわからない</h3>
+          <p>季節の前後に見直したい掃除頻度と、フィルターのお手入れを整理します。</p>
+        </article>
+        <article class="worry-card">
+          <h3>お風呂のカビ対策を後回しにしてしまう</h3>
+          <p>毎日の換気や水気の拭き取りなど、続けやすい予防の考え方を紹介します。</p>
+        </article>
+        <article class="worry-card">
+          <h3>換気扇掃除が面倒で放置しがち</h3>
+          <p>油汚れをためすぎないために、無理なく始めるタイミングを考えます。</p>
+        </article>
+        <article class="worry-card">
+          <h3>排水口掃除の頻度がわからない</h3>
+          <p>においやぬめりが出る前にできる、週1回の小さなメンテをまとめます。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
         <h2 class="section-title">カテゴリから探す</h2>
-        <p class="section-desc">暮らしの中でよく悩む家のメンテナンスを、目的別に分かりやすく整理しました。</p>
+        <p class="section-desc">場所ごとに知りたい情報を探せます。掃除の頻度、必要なもの、失敗しやすい点をカテゴリ別にまとめています。</p>
       </div>
       <div class="grid category-grid">
         <article class="category-card">
+          <span class="category-label">空調</span>
           <h3>エアコン</h3>
-          <p>冷房・暖房の効きが落ちる前に知っておきたい掃除・メンテのポイント。</p>
+          <p>冷房・暖房の効きが落ちる前に知っておきたい掃除と点検の基本。</p>
           <a class="card-link" href="maintenance/aircon/index.html">カテゴリを見る</a>
         </article>
         <article class="category-card">
+          <span class="category-label">浴室</span>
           <h3>お風呂・カビ</h3>
-          <p>黒カビや湿気対策をやさしく解説。家族が気持ちよく使える浴室へ。</p>
+          <p>湿気や黒カビを防ぐために、毎日の習慣と定期掃除を整理します。</p>
           <a class="card-link" href="maintenance/bathroom/index.html">カテゴリを見る</a>
         </article>
         <article class="category-card">
+          <span class="category-label">キッチン</span>
           <h3>キッチン・換気扇</h3>
-          <p>油汚れに強い換気扇掃除と、キッチンまわりの衛生管理をサポート。</p>
+          <p>油汚れをためないための換気扇掃除と、台所まわりの衛生管理。</p>
           <a class="card-link" href="maintenance/kitchen/index.html">カテゴリを見る</a>
         </article>
         <article class="category-card">
+          <span class="category-label">水回り</span>
           <h3>排水口・水回り</h3>
-          <p>ぬめり・ニオイ対策に役立つ排水口掃除のタイミングと方法。</p>
+          <p>ぬめりやにおいを防ぐ、排水口掃除のタイミングと基本手順。</p>
           <a class="card-link" href="maintenance/drain/index.html">カテゴリを見る</a>
         </article>
         <article class="category-card">
+          <span class="category-label">外まわり</span>
           <h3>ベランダ・網戸</h3>
-          <p>外まわりの掃除や網戸のお手入れで、快適な暮らし空間を保ちます。</p>
+          <p>ほこりや砂汚れをためない、外まわりの手軽なお手入れ。</p>
           <a class="card-link" href="maintenance/balcony/index.html">カテゴリを見る</a>
         </article>
       </div>
@@ -73,8 +103,8 @@
 
     <section class="section">
       <div class="section-head">
-        <h2 class="section-title">人気の記事</h2>
-        <p class="section-desc">いま多くの人が読んでいる、家メンテの定番記事をピックアップしました。</p>
+        <h2 class="section-title">人気記事</h2>
+        <p class="section-desc">はじめて家のメンテナンスを見直す人にも読みやすい、基本の記事を集めました。</p>
       </div>
       <div class="grid popular-grid">
         <article class="article-card">
@@ -86,13 +116,13 @@
         <article class="article-card">
           <span class="meta">お風呂</span>
           <h3>お風呂のカビ対策に必要なこと</h3>
-          <p>湿気や黒カビを防ぐために、今日から始められる手軽な習慣をご紹介。</p>
+          <p>湿気や黒カビを防ぐために、今日から始められる小さな習慣を紹介します。</p>
           <a class="card-link" href="articles/bathroom-mold-prevention.html">読む</a>
         </article>
         <article class="article-card">
           <span class="meta">排水口</span>
           <h3>排水口掃除の頻度は？</h3>
-          <p>ぬめりやにおいを防ぐ、排水口メンテの基本とおすすめアイテム。</p>
+          <p>ぬめりやにおいを防ぐための、排水口メンテナンスの基本。</p>
           <a class="card-link" href="articles/drain-cleaning-frequency.html">読む</a>
         </article>
       </div>
@@ -100,33 +130,42 @@
 
     <section class="section">
       <div class="section-head">
-        <h2 class="section-title">アプリで忘れず管理</h2>
-        <p class="section-desc">家メンテを続けたい人のための、チェックしやすいタスク管理アプリ。</p>
+        <h2 class="section-title">季節のおすすめメンテナンス</h2>
+        <p class="section-desc">季節の変わり目は、家の不調に気づきやすいタイミングです。今のうちに見直したい項目をまとめました。</p>
       </div>
+      <div class="grid season-grid">
+        <article class="card">
+          <h3>冷暖房シーズン前のエアコン確認</h3>
+          <p>フィルターのほこり、におい、風量を確認して、必要なら早めに掃除します。</p>
+        </article>
+        <article class="card">
+          <h3>湿気が増える前のお風呂まわり</h3>
+          <p>換気扇、ゴムパッキン、排水口を見直すと、黒カビを予防しやすくなります。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
       <div class="card feature-card">
         <div class="app-spotlight">
           <img src="images/AppIcon1024x1024.png" alt="おうちメンテ アプリアイコン" />
           <div>
-            <h3>おうちメンテ アプリ</h3>
-            <p>家のメンテを忘れず管理できる、シンプルでやさしいタスク管理アプリ。</p>
+            <h2 class="section-title">忘れやすいメンテは、アプリでゆるく管理</h2>
+            <p>記事で調べた内容を、あとで思い出せるように。家の掃除や点検のタイミングを、無理なく管理できます。</p>
           </div>
         </div>
         <div class="feature-list">
           <div class="feature-item">
-            <strong>メンテナンス予定を見える化</strong>
-            <p>やるべき掃除や点検のタイミングを、わかりやすくまとめます。</p>
+            <strong>場所ごとのメンテ予定を整理</strong>
+            <p>エアコン、お風呂、排水口などをまとめてチェックできます。</p>
           </div>
           <div class="feature-item">
-            <strong>手順と必要なものを確認</strong>
-            <p>家事の間に忘れがちな細かいポイントも、アプリでチェック。</p>
-          </div>
-          <div class="feature-item">
-            <strong>将来的にリンクも対応予定</strong>
-            <p>商品リンクや業者依頼導線も、今後のアップデートで予定。</p>
+            <strong>頻度や手順を確認</strong>
+            <p>何をどのくらいの間隔でやるか、迷ったときに見返せます。</p>
           </div>
         </div>
-        <div>
-          <a class="btn" href="app/index.html">おうちメンテ アプリを見る</a>
+        <div class="hero-actions">
+          <a class="btn btn-secondary" href="app/index.html">アプリ紹介を見る</a>
         </div>
       </div>
     </section>

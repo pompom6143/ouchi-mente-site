@@ -1,27 +1,27 @@
 const affiliateLinks = {
   bathroom_mold_spray: {
-    label: "カビ取り剤を見る",
+    label: "カビ取り剤を確認する",
     url: "https://example.com/bathroom-mold-spray",
     type: "product",
-    description: "お風呂の黒カビ対策に使いやすい定番アイテムです。"
+    description: "お風呂の黒カビ対策を自分で進める場合に、選択肢として確認できます。"
   },
   aircon_cleaning_service: {
-    label: "エアコンクリーニングを依頼する",
+    label: "エアコンクリーニングを確認する",
     url: "https://example.com/aircon-cleaning-service",
     type: "service",
-    description: "自分で掃除しづらい内部洗浄を業者に依頼したい方向けです。"
+    description: "自分で掃除しづらい内部洗浄が必要そうな場合に、業者依頼という選択肢があります。"
   },
   drain_cleaning_kit: {
-    label: "排水口掃除キットを見る",
+    label: "排水口掃除キットを確認する",
     url: "https://example.com/drain-cleaning-kit",
     type: "product",
-    description: "排水口のぬめりやにおいをしっかり落とす専用キットです。"
+    description: "ぬめりやにおいが気になるとき、自分で掃除するための道具として確認できます。"
   },
   kitchen_filter_spray: {
-    label: "換気扇クリーナーを見る",
+    label: "換気扇クリーナーを確認する",
     url: "https://example.com/kitchen-filter-spray",
     type: "product",
-    description: "油汚れに強いキッチンフィルター用スプレーです。"
+    description: "油汚れを自分で落としたい場合に、補助アイテムとして確認できます。"
   }
 };
 
