@@ -4,8 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>おうちメンテ アプリ | 家のメンテナンスを忘れず・迷わず管理</title>
-  <meta name="description" content="おうちメンテアプリは、家のメンテナンス予定や掃除頻度、手順をゆるく管理できる暮らし向けアプリです。" />
+  <meta name="description" content="おうちメンテアプリは、掃除や家事メンテナンスの予定、頻度、手順をゆるく管理できる暮らし向けアプリです。" />
   <link rel="stylesheet" href="../css/style.css" />
+  <script defer src="../js/site-nav.js"></script>
 </head>
 <body>
   <header>
@@ -14,7 +15,12 @@
         <img src="../images/AppIcon1024x1024.png" alt="おうちメンテ ロゴ" />
         <span class="site-title">おうちメンテ</span>
       </a>
-      <nav>
+      <button class="nav-toggle" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav">
         <ul>
           <li><a href="../articles/index.html">記事一覧</a></li>
           <li><a href="../maintenance/aircon/index.html">カテゴリ</a></li>
@@ -30,7 +36,7 @@
     </nav>
 
     <h1 class="page-title">家のメンテナンスを、忘れすぎないくらいに管理する</h1>
-    <p class="lead-text">おうちメンテは、掃除や点検の予定を暮らしに合わせて見返せるアプリです。きっちり管理するというより、気づいたときに迷わず動ける状態を目指しています。</p>
+    <p class="lead-text">おうちメンテは、掃除や点検の予定を暮らしに合わせて見返せるアプリです。エアコン・お風呂・換気扇など、つい後回しになる家事メンテを無理なく管理できます。</p>
 
     <section class="section article-main">
       <div class="article-content">
@@ -59,20 +65,24 @@
         </div>
 
         <div class="app-preview">
-          <h2>画面イメージ</h2>
-          <div class="phone-mock" aria-label="おうちメンテの画面イメージ">
-            <div class="phone-row">
-              <strong>今日のメンテ</strong>
-              <span>排水口のぬめりチェック</span>
-            </div>
-            <div class="phone-row">
-              <strong>今週やること</strong>
-              <span>エアコンフィルター掃除</span>
-            </div>
-            <div class="phone-row">
-              <strong>次の予定</strong>
-              <span>お風呂のカビ予防</span>
-            </div>
+          <h2>実際の画面</h2>
+          <div class="screenshot-grid">
+            <figure class="screenshot-card">
+              <img src="../images/app/screenshot-home.png" alt="おうちメンテのやること一覧画面" />
+              <figcaption>そろそろやることを一覧で確認</figcaption>
+            </figure>
+            <figure class="screenshot-card">
+              <img src="../images/app/screenshot-settings.png" alt="おうちメンテのメンテナンス設定画面" />
+              <figcaption>カテゴリごとのメンテナンス設定</figcaption>
+            </figure>
+            <figure class="screenshot-card">
+              <img src="../images/app/screenshot-add.png" alt="おうちメンテのメンテナンス追加画面" />
+              <figcaption>必要な項目をまとめて追加</figcaption>
+            </figure>
+            <figure class="screenshot-card">
+              <img src="../images/app/screenshot-invite.png" alt="おうちメンテの招待コード管理画面" />
+              <figcaption>家族との共有にも対応</figcaption>
+            </figure>
           </div>
         </div>
 
@@ -86,9 +96,9 @@
         </div>
 
         <div class="cta-card">
-          <h3>公開準備中です</h3>
-          <p>アプリは現在開発中です。公開後は、このページからダウンロードできるようにします。</p>
-          <a class="btn btn-secondary" href="../articles/index.html">先に記事を読む</a>
+          <h3>App Storeで公開中です</h3>
+          <p>掃除や家事メンテナンスの予定を、アプリで気軽に管理できます。</p>
+          <a class="btn" href="https://apps.apple.com/jp/app/%E3%81%8A%E3%81%86%E3%81%A1%E3%83%A1%E3%83%B3%E3%83%86-%E6%8E%83%E9%99%A4-%E5%AE%B6%E4%BA%8B%E7%AE%A1%E7%90%86/id6742120333" target="_blank" rel="noopener">App Storeで見る</a>
         </div>
       </div>
     </section>

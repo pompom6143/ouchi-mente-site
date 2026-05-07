@@ -7,6 +7,7 @@
   <title>おうちメンテ 記事一覧 | 家メンテ情報をカテゴリ別に整理</title>
   <meta name="description" content="家のメンテナンスに役立つ記事をカテゴリ別にまとめました。エアコン、お風呂、排水口の掃除頻度やカビ対策など。" />
   <link rel="stylesheet" href="../css/style.css" />
+  <script defer src="../js/site-nav.js"></script>
 </head>
 <body>
   <header>
@@ -15,7 +16,12 @@
         <img src="../images/AppIcon1024x1024.png" alt="おうちメンテ ロゴ" />
         <span class="site-title">おうちメンテ</span>
       </a>
-      <nav>
+      <button class="nav-toggle" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav">
         <ul>
           <li><a href="index.html">記事一覧</a></li>
           <li><a href="../maintenance/aircon/index.html">カテゴリ</a></li>
@@ -61,34 +67,32 @@
         <h2 class="section-title">カテゴリから探す</h2>
         <p class="section-desc">場所ごとに記事を探したいときはこちらから。準備中のカテゴリも順次追加していきます。</p>
       </div>
-      <div class="card feature-card">
-        <div class="grid category-grid">
-          <article class="category-card">
-            <span class="category-label">空調</span>
-            <h3>エアコン</h3>
-            <a class="card-link" href="../maintenance/aircon/index.html">カテゴリを見る</a>
-          </article>
-          <article class="category-card">
-            <span class="category-label">浴室</span>
-            <h3>お風呂・カビ</h3>
-            <a class="card-link" href="../maintenance/bathroom/index.html">カテゴリを見る</a>
-          </article>
-          <article class="category-card">
-            <span class="category-label">キッチン</span>
-            <h3>キッチン・換気扇</h3>
-            <a class="card-link" href="../maintenance/kitchen/index.html">カテゴリを見る</a>
-          </article>
-          <article class="category-card">
-            <span class="category-label">水回り</span>
-            <h3>排水口・水回り</h3>
-            <a class="card-link" href="../maintenance/drain/index.html">カテゴリを見る</a>
-          </article>
-          <article class="category-card">
-            <span class="category-label">外まわり</span>
-            <h3>ベランダ・網戸</h3>
-            <a class="card-link" href="../maintenance/balcony/index.html">カテゴリを見る</a>
-          </article>
-        </div>
+      <div class="grid category-grid">
+        <article class="category-card">
+          <span class="category-label">空調</span>
+          <h3>エアコン</h3>
+          <a class="card-link" href="../maintenance/aircon/index.html">カテゴリを見る</a>
+        </article>
+        <article class="category-card">
+          <span class="category-label">浴室</span>
+          <h3>お風呂・カビ</h3>
+          <a class="card-link" href="../maintenance/bathroom/index.html">カテゴリを見る</a>
+        </article>
+        <article class="category-card">
+          <span class="category-label">キッチン</span>
+          <h3>キッチン・換気扇</h3>
+          <a class="card-link" href="../maintenance/kitchen/index.html">カテゴリを見る</a>
+        </article>
+        <article class="category-card">
+          <span class="category-label">水回り</span>
+          <h3>排水口・水回り</h3>
+          <a class="card-link" href="../maintenance/drain/index.html">カテゴリを見る</a>
+        </article>
+        <article class="category-card">
+          <span class="category-label">外まわり</span>
+          <h3>ベランダ・網戸</h3>
+          <a class="card-link" href="../maintenance/balcony/index.html">カテゴリを見る</a>
+        </article>
       </div>
     </section>
   </main>
