@@ -4,7 +4,7 @@
   "tasks": [
     {
       "id": "bath-drain",
-      "title": "浴室排水溝をしっかり掃除",
+      "title": "浴室排水溝掃除",
       "category": "お風呂",
       "summary": "ぬめりやにおいを軽くし、浴室を気持ちよく使いやすくするため。",
       "recommendedFrequency": "週1回",
@@ -46,7 +46,7 @@
     },
     {
       "id": "kitchen-drain",
-      "title": "キッチン排水溝をしっかり掃除",
+      "title": "キッチン排水溝掃除",
       "category": "キッチン",
       "summary": "ぬめりやにおいを抑え、シンクまわりを清潔に使いやすくするため。",
       "recommendedFrequency": "週1回",
@@ -88,7 +88,7 @@
     },
     {
       "id": "toilet-deep-clean",
-      "title": "トイレしっかり掃除",
+      "title": "トイレ掃除",
       "category": "トイレ",
       "summary": "便器まわりや床の汚れを整えて、においを出にくくするため。",
       "recommendedFrequency": "週1回",
@@ -499,7 +499,8 @@
       ],
       "tips": [
         "鋭い部品に気をつけてください。",
-        "塗装面は強い洗剤で傷むことがあります。"
+        "塗装面は強い洗剤で傷むことがあります。",
+        "市販の貼り付けフィルターは、機種によって吸気を妨げたり故障の原因になることがあります。使う場合はメーカーの案内を確認してください。"
       ],
       "products": [
         {
@@ -512,12 +513,6 @@
           "label": "掃除用ゴム手袋を見る",
           "description": "排水口や油汚れの掃除をする時に手を守りやすい手袋です。",
           "url": "https://a.r10.to/hkLq7V",
-          "type": "product"
-        },
-        {
-          "label": "換気扇フィルターを見る",
-          "description": "換気扇まわりの汚れ対策に使える交換・貼り付けタイプのフィルターです。",
-          "url": "https://a.r10.to/hYiXb7",
           "type": "product"
         }
       ],
@@ -1345,7 +1340,7 @@
     },
     {
       "id": "washstand-drain",
-      "title": "洗面台排水口しっかり掃除",
+      "title": "洗面台排水口掃除",
       "category": "洗面台",
       "summary": "髪の毛やぬめりを整え、洗面台を気持ちよく使いやすくするため。",
       "recommendedFrequency": "週1回",
