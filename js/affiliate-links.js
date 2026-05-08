@@ -1,25 +1,25 @@
 const affiliateLinks = {
   bathroom_mold_spray: {
     label: "カビ取り剤を確認する",
-    url: "https://example.com/bathroom-mold-spray",
+    url: null,
     type: "product",
     description: "お風呂の黒カビ対策を自分で進める場合に、選択肢として確認できます。"
   },
   aircon_cleaning_service: {
     label: "エアコンクリーニングを確認する",
-    url: "https://example.com/aircon-cleaning-service",
+    url: null,
     type: "service",
     description: "自分で掃除しづらい内部洗浄が必要そうな場合に、業者依頼という選択肢があります。"
   },
   drain_cleaning_kit: {
     label: "排水口掃除キットを確認する",
-    url: "https://example.com/drain-cleaning-kit",
+    url: null,
     type: "product",
     description: "ぬめりやにおいが気になるとき、自分で掃除するための道具として確認できます。"
   },
   kitchen_filter_spray: {
     label: "換気扇クリーナーを確認する",
-    url: "https://example.com/kitchen-filter-spray",
+    url: null,
     type: "product",
     description: "油汚れを自分で落としたい場合に、補助アイテムとして確認できます。"
   }
@@ -42,11 +42,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const wrapper = document.createElement("div");
     wrapper.className = `affiliate-card__inner affiliate-card--${entry.type}`;
 
-    const link = document.createElement("a");
-    link.className = "affiliate-card__link";
-    link.href = entry.url;
-    link.target = "_blank";
-    link.rel = "nofollow sponsored noopener";
+    const content = entry.url ? document.createElement("a") : document.createElement("div");
+    content.className = entry.url ? "affiliate-card__link" : "affiliate-card__body";
+    if (entry.url) {
+      content.href = entry.url;
+      content.target = "_blank";
+      content.rel = "nofollow sponsored noopener";
+    }
 
     const title = document.createElement("div");
     title.className = "affiliate-card__label";
@@ -60,8 +62,8 @@ document.addEventListener("DOMContentLoaded", () => {
     description.className = "affiliate-card__description";
     description.textContent = entry.description;
 
-    link.append(title, typeTag, description);
-    wrapper.appendChild(link);
+    content.append(title, typeTag, description);
+    wrapper.appendChild(content);
     placeholder.appendChild(wrapper);
   });
 });
