@@ -1,1188 +1,1513 @@
 {
-  "version": "1.0.0",
-  "updatedAt": "2026-05-07",
+  "version": "2026-05-08",
+  "updatedAt": "2026-05-08",
   "tasks": [
     {
-      "id": "aircon_filter",
+      "id": "bath-drain",
+      "title": "浴室排水溝をしっかり掃除",
+      "category": "お風呂",
+      "summary": "ぬめりやにおいを軽くし、浴室を気持ちよく使いやすくするため。",
+      "recommendedFrequency": "週1回",
+      "estimatedMinutes": 15,
+      "steps": [
+        "換気をして、ゴム手袋をつける",
+        "排水口カバーと受け皿を外す",
+        "髪の毛や大きな汚れを取り除く",
+        "排水口ブラシでぬめりをやさしく落とす",
+        "部品を水で流し、元に戻す"
+      ],
+      "tips": [
+        "髪の毛は日々のついで掃除で軽く取り、ここでは週1回のしっかり掃除を目安にします。",
+        "強いにおいが続く時は排水管クリーナーも検討してください。",
+        "無理に奥まで分解しないでください。"
+      ],
+      "products": [
+        {
+          "label": "掃除用ゴム手袋を見る",
+          "description": "排水口や油汚れの掃除をする時に手を守りやすい手袋です。",
+          "url": "https://a.r10.to/hkLq7V",
+          "type": "product"
+        },
+        {
+          "label": "排水口ブラシを見る",
+          "description": "排水口のすみや細い部分のぬめりを落としやすいブラシです。",
+          "url": "https://a.r10.to/hgfGMJ",
+          "type": "product"
+        },
+        {
+          "label": "浴室排水口ヘアキャッチャーを見る",
+          "description": "髪の毛を受け止めて、浴室排水口の掃除を軽くしやすいアイテムです。",
+          "url": "https://a.r10.to/hYoIgI",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "kitchen-drain",
+      "title": "キッチン排水溝をしっかり掃除",
+      "category": "キッチン",
+      "summary": "ぬめりやにおいを抑え、シンクまわりを清潔に使いやすくするため。",
+      "recommendedFrequency": "週1回",
+      "estimatedMinutes": 15,
+      "steps": [
+        "ゴム手袋をつけ、排水口まわりの大きなゴミを取る",
+        "フタ・ゴミ受け・トラップを外せる範囲で外す",
+        "排水口ブラシでぬめりを落とす",
+        "水で流して、部品を戻す",
+        "排水口ネットを交換する"
+      ],
+      "tips": [
+        "日々のゴミ取りは料理後のついでで大丈夫です。",
+        "においが気になる時は排水管クリーナーを使うと整えやすいです。",
+        "熱湯を流すと部品を傷めることがあるため、説明書を確認してください。"
+      ],
+      "products": [
+        {
+          "label": "掃除用ゴム手袋を見る",
+          "description": "排水口や油汚れの掃除をする時に手を守りやすい手袋です。",
+          "url": "https://a.r10.to/hkLq7V",
+          "type": "product"
+        },
+        {
+          "label": "排水口ブラシを見る",
+          "description": "排水口のすみや細い部分のぬめりを落としやすいブラシです。",
+          "url": "https://a.r10.to/hgfGMJ",
+          "type": "product"
+        },
+        {
+          "label": "排水口ネットを見る",
+          "description": "キッチン排水口のゴミを受け止め、日々の片づけを軽くしやすい消耗品です。",
+          "url": "https://a.r10.to/h508qH",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "toilet-deep-clean",
+      "title": "トイレしっかり掃除",
+      "category": "トイレ",
+      "summary": "便器まわりや床の汚れを整えて、においを出にくくするため。",
+      "recommendedFrequency": "週1回",
+      "estimatedMinutes": 15,
+      "steps": [
+        "換気をして、便座・フタ・操作部を拭く",
+        "便器内をトイレ用洗剤で洗う",
+        "便器の外側と床を拭く",
+        "壁の低い位置や便器の根元を確認する",
+        "掃除後に手洗いと換気をする"
+      ],
+      "tips": [
+        "見える範囲だけでも整えておくと、においが気になりにくくなります。",
+        "洗剤を混ぜないでください。",
+        "温水洗浄ノズルは別タスクで落ち着いて確認できます。"
+      ],
+      "products": [],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "aircon-filter",
       "title": "エアコンフィルター掃除",
-      "category": "aircon",
-      "summary": "風量低下や電気代の増加を防ぎ、カビ臭を出にくくするため。",
+      "category": "エアコン",
+      "summary": "風量低下や電気代の増加を抑え、カビ臭を出にくくするため。",
       "recommendedFrequency": "月1回",
       "estimatedMinutes": 20,
       "steps": [
         "電源を切る",
-        "フィルターを外してすき間ノズル付き掃除機でほこりを取る",
-        "細かい汚れはフィルター掃除ブラシで落とす",
-        "水洗いして日陰で完全に乾かす",
+        "前面パネルを開けてフィルターを外す",
+        "掃除機でほこりを吸い取る",
+        "細かい汚れは水洗いし、日陰でしっかり乾かす",
         "フィルターを戻して試運転する"
       ],
       "tips": [
-        "濡れたまま戻すとカビの原因になります。"
+        "濡れたまま戻すとカビの原因になりやすいです。",
+        "冷房・除湿後の送風運転や内部乾燥はカビ予防に役立ちます。",
+        "機種ごとの外し方は説明書で確認してください。"
       ],
       "products": [
         {
           "label": "フィルター掃除ブラシを見る",
-          "description": "エアコンフィルター掃除に使いやすいフィルター掃除ブラシです。",
+          "description": "フィルターや細かいすき間のほこりをやさしく落としやすいブラシです。",
           "url": "https://a.r10.to/hYNB7R",
-          "type": "rakuten"
+          "type": "product"
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-07"
+      "updatedAt": "2026-05-08"
     },
     {
-      "id": "aircon_dry",
-      "title": "エアコン送風運転・内部乾燥",
-      "category": "aircon",
-      "summary": "内部の湿気を逃がしてカビやにおいを抑えるため。",
-      "recommendedFrequency": "週1回",
-      "estimatedMinutes": 10,
-      "steps": [
-        "冷房や除湿の使用後に送風へ切り替える",
-        "30分から1時間ほど運転する",
-        "異臭がないか確認する"
-      ],
-      "tips": [
-        "異音や強いにおいがある場合は使用を止めて点検を検討してください。"
-      ],
-      "products": [],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "aircon_outdoor",
-      "title": "室外機まわりの掃除",
-      "category": "aircon",
-      "summary": "室外機の吸排気を妨げず、効率よく運転させるため。",
-      "recommendedFrequency": "季節ごと",
-      "estimatedMinutes": 15,
-      "steps": [
-        "室外機まわりの落ち葉や物をどける",
-        "屋外用ほうき・ちりとりで周囲のごみを取る",
-        "吹き出し口をふさぐ物がないか確認する",
-        "見える範囲の汚れを乾いた布で拭く"
-      ],
-      "tips": [
-        "室外機内部に水をかけたり分解したりしないでください。"
-      ],
-      "products": [
-        {
-          "label": "屋外用ほうき・ちりとりを見る",
-          "description": "室外機まわりの掃除に使いやすい屋外用ほうき・ちりとりです。",
-          "url": "https://a.r10.to/hYHGlZ",
-          "type": "rakuten"
-        }
-      ],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "aircon_cleaning",
-      "title": "エアコン内部クリーニング検討",
-      "category": "aircon",
-      "summary": "内部のカビや汚れは家庭で落としにくく、においや効きに影響するため。",
-      "recommendedFrequency": "年1回",
-      "estimatedMinutes": 10,
-      "steps": [
-        "吹き出し口の黒ずみを見る",
-        "においや効きの弱さを確認する",
-        "必要なら業者クリーニングを検討する"
-      ],
-      "tips": [
-        "市販スプレーは故障リスクがあるため、説明書をよく確認してください。"
-      ],
-      "products": [],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "rangehood_filter",
-      "title": "換気扇フィルター掃除",
-      "category": "kitchen",
-      "summary": "油汚れの蓄積を抑え、換気効率を保つため。",
-      "recommendedFrequency": "月1回",
-      "estimatedMinutes": 25,
-      "steps": [
-        "掃除用ゴム手袋をつけて電源を切る",
-        "フィルターを外す",
-        "油汚れ用洗剤で洗う",
-        "乾かして戻す"
-      ],
-      "tips": [
-        "鋭い部品で手を切らないよう手袋を使ってください。"
-      ],
-      "products": [
-        {
-          "label": "油汚れ用洗剤を見る",
-          "description": "換気扇フィルター掃除に使いやすい油汚れ用洗剤です。",
-          "url": "https://a.r10.to/hP1cWW",
-          "type": "rakuten"
-        },
-        {
-          "label": "掃除用ゴム手袋を見る",
-          "description": "換気扇フィルター掃除に使いやすい掃除用ゴム手袋です。",
-          "url": "https://a.r10.to/hkLq7V",
-          "type": "rakuten"
-        },
-        {
-          "label": "浴室換気扇フィルターを見る",
-          "description": "換気扇フィルター掃除に使いやすい浴室換気扇フィルターです。",
-          "url": "https://a.r10.to/hYiXb7",
-          "type": "rakuten"
-        }
-      ],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "rangehood_outside",
-      "title": "レンジフード外装拭き",
-      "category": "kitchen",
-      "summary": "油の膜を早めに落として大掃除を軽くするため。",
-      "recommendedFrequency": "週1回",
-      "estimatedMinutes": 10,
-      "steps": [
-        "油汚れ用洗剤をマイクロファイバークロスに含ませる",
-        "外装の油汚れを拭き取る",
-        "水拭きして乾拭きする"
-      ],
-      "tips": [
-        "アルミや塗装面は強い洗剤で傷むことがあります。"
-      ],
-      "products": [
-        {
-          "label": "油汚れ用洗剤を見る",
-          "description": "レンジフード外装拭きに使いやすい油汚れ用洗剤です。",
-          "url": "https://a.r10.to/hP1cWW",
-          "type": "rakuten"
-        },
-        {
-          "label": "マイクロファイバークロスを見る",
-          "description": "レンジフード外装拭きに使いやすいマイクロファイバークロスです。",
-          "url": "https://a.r10.to/hgGdkQ",
-          "type": "rakuten"
-        }
-      ],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "sirocco_fan",
-      "title": "シロッコファン洗浄",
-      "category": "kitchen",
-      "summary": "ファンに付いた油汚れを落として吸い込みを保つため。",
-      "recommendedFrequency": "季節ごと",
-      "estimatedMinutes": 45,
-      "steps": [
-        "掃除用ゴム手袋をつけて説明書で外し方を確認する",
-        "外せる部品だけを外す",
-        "つけ置き用バケツにぬるま湯とつけおき用洗剤を入れてつけ置きする",
-        "シロッコファン専用ブラシで残った汚れを落とす",
-        "よく乾かして戻す"
-      ],
-      "tips": [
-        "外し方が分からない場合は無理に分解しないでください。"
-      ],
-      "products": [
-        {
-          "label": "油汚れ用洗剤を見る",
-          "description": "シロッコファン洗浄に使いやすい油汚れ用洗剤です。",
-          "url": "https://a.r10.to/hP1cWW",
-          "type": "rakuten"
-        },
-        {
-          "label": "つけおき用洗剤を見る",
-          "description": "シロッコファン洗浄に使いやすいつけおき用洗剤です。",
-          "url": "https://a.r10.to/h53mRG",
-          "type": "rakuten"
-        },
-        {
-          "label": "掃除用ゴム手袋を見る",
-          "description": "シロッコファン洗浄に使いやすい掃除用ゴム手袋です。",
-          "url": "https://a.r10.to/hkLq7V",
-          "type": "rakuten"
-        },
-        {
-          "label": "つけ置き用バケツを見る",
-          "description": "シロッコファン洗浄に使いやすいつけ置き用バケツです。",
-          "url": "https://a.r10.to/hgb6QD",
-          "type": "rakuten"
-        },
-        {
-          "label": "シロッコファン専用ブラシを見る",
-          "description": "シロッコファン洗浄に使いやすいシロッコファン専用ブラシです。",
-          "url": "https://a.r10.to/h8oOoM",
-          "type": "rakuten"
-        }
-      ],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "kitchen_drain",
-      "title": "キッチン排水口掃除",
-      "category": "drain",
-      "summary": "ぬめりやにおい、詰まりを予防するため。",
-      "recommendedFrequency": "週1回",
-      "estimatedMinutes": 10,
-      "steps": [
-        "掃除用ゴム手袋をつけてごみ受けを外す",
-        "食べかすを取り、必要なら排水口ネットを交換する",
-        "排水口ブラシと排水口掃除用洗剤でぬめりを洗う",
-        "水を流してにおいを確認する"
-      ],
-      "tips": [
-        "塩素系と酸性洗剤は混ぜないでください。"
-      ],
-      "products": [
-        {
-          "label": "掃除用ゴム手袋を見る",
-          "description": "キッチン排水口掃除に使いやすい掃除用ゴム手袋です。",
-          "url": "https://a.r10.to/hkLq7V",
-          "type": "rakuten"
-        },
-        {
-          "label": "排水口ブラシを見る",
-          "description": "キッチン排水口掃除に使いやすい排水口ブラシです。",
-          "url": "https://a.r10.to/hgfGMJ",
-          "type": "rakuten"
-        },
-        {
-          "label": "排水口ネットを見る",
-          "description": "キッチン排水口掃除に使いやすい排水口ネットです。",
-          "url": "https://a.r10.to/h508qH",
-          "type": "rakuten"
-        }
-      ],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "kitchen_pipe",
-      "title": "キッチン排水パイプ洗浄",
-      "category": "drain",
-      "summary": "排水管内の油汚れをためにくくするため。",
-      "recommendedFrequency": "月1回",
-      "estimatedMinutes": 15,
-      "steps": [
-        "排水口のごみを取る",
-        "パイプクリーナーを説明書通りに使う",
-        "十分な水で流す"
-      ],
-      "tips": [
-        "洗浄剤の放置時間と換気を必ず守ってください。"
-      ],
-      "products": [
-        {
-          "label": "パイプクリーナーを見る",
-          "description": "キッチン排水パイプ洗浄に使いやすいパイプクリーナーです。",
-          "url": "https://a.r10.to/hgJhJO",
-          "type": "rakuten"
-        }
-      ],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "sink_polish",
-      "title": "シンク磨き",
-      "category": "kitchen",
-      "summary": "水垢やくすみを抑えて清潔に保つため。",
-      "recommendedFrequency": "週1回",
-      "estimatedMinutes": 10,
-      "steps": [
-        "食器や小物をよける",
-        "シンク用クリーナーで全体を洗う",
-        "水分をマイクロファイバークロスで拭き取る"
-      ],
-      "tips": [
-        "研磨剤は素材に合うものを使ってください。"
-      ],
-      "products": [
-        {
-          "label": "シンク用クリーナーを見る",
-          "description": "シンク磨きに使いやすいシンク用クリーナーです。",
-          "url": "https://a.r10.to/hPJ5Sv",
-          "type": "rakuten"
-        },
-        {
-          "label": "マイクロファイバークロスを見る",
-          "description": "シンク磨きに使いやすいマイクロファイバークロスです。",
-          "url": "https://a.r10.to/hgGdkQ",
-          "type": "rakuten"
-        }
-      ],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "fridge_area",
-      "title": "冷蔵庫まわり掃除",
-      "category": "kitchen",
-      "summary": "ほこりによる放熱不良や汚れを防ぐため。",
-      "recommendedFrequency": "月1回",
-      "estimatedMinutes": 15,
-      "steps": [
-        "冷蔵庫上のほこりをすき間ノズル付き掃除機で取る",
-        "床のごみを取る",
-        "扉や取っ手をマイクロファイバークロスで拭く"
-      ],
-      "tips": [
-        "無理に冷蔵庫を動かさず、手の届く範囲で行ってください。"
-      ],
-      "products": [
-        {
-          "label": "マイクロファイバークロスを見る",
-          "description": "冷蔵庫まわり掃除に使いやすいマイクロファイバークロスです。",
-          "url": "https://a.r10.to/hgGdkQ",
-          "type": "rakuten"
-        }
-      ],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "bath_drain",
-      "title": "浴室排水口掃除",
-      "category": "drain",
-      "summary": "髪の毛や石けんカスによる詰まりとにおいを予防するため。",
-      "recommendedFrequency": "週1回",
-      "estimatedMinutes": 10,
-      "steps": [
-        "掃除用ゴム手袋をつけてヘアキャッチャーを外す",
-        "髪の毛を取り、必要なら浴室排水口ヘアキャッチャーを交換する",
-        "排水口ブラシと排水口掃除用洗剤でぬめりを洗う",
-        "水を流して確認する"
-      ],
-      "tips": [
-        "素手で触らず手袋を使うと衛生的です。"
-      ],
-      "products": [
-        {
-          "label": "掃除用ゴム手袋を見る",
-          "description": "浴室排水口掃除に使いやすい掃除用ゴム手袋です。",
-          "url": "https://a.r10.to/hkLq7V",
-          "type": "rakuten"
-        },
-        {
-          "label": "排水口ブラシを見る",
-          "description": "浴室排水口掃除に使いやすい排水口ブラシです。",
-          "url": "https://a.r10.to/hgfGMJ",
-          "type": "rakuten"
-        },
-        {
-          "label": "浴室排水口ヘアキャッチャーを見る",
-          "description": "浴室排水口掃除に使いやすい浴室排水口ヘアキャッチャーです。",
-          "url": "https://a.r10.to/hYoIgI",
-          "type": "rakuten"
-        }
-      ],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "bath_vent_filter",
-      "title": "浴室換気扇フィルター掃除",
-      "category": "bathroom",
-      "summary": "換気効率を保ち、カビを発生しにくくするため。",
-      "recommendedFrequency": "月1回",
-      "estimatedMinutes": 15,
-      "steps": [
-        "踏み台・脚立を安定した場所に置いて電源を切る",
-        "浴室換気扇フィルターを外す",
-        "フィルター掃除ブラシでほこりを取り水洗いする",
-        "乾かして戻す"
-      ],
-      "tips": [
-        "天井作業は足元を安定させ、無理をしないでください。"
-      ],
-      "products": [
-        {
-          "label": "油汚れ用洗剤を見る",
-          "description": "浴室換気扇フィルター掃除に使いやすい油汚れ用洗剤です。",
-          "url": "https://a.r10.to/hP1cWW",
-          "type": "rakuten"
-        },
-        {
-          "label": "掃除用ゴム手袋を見る",
-          "description": "浴室換気扇フィルター掃除に使いやすい掃除用ゴム手袋です。",
-          "url": "https://a.r10.to/hkLq7V",
-          "type": "rakuten"
-        },
-        {
-          "label": "浴室換気扇フィルターを見る",
-          "description": "浴室換気扇フィルター掃除に使いやすい浴室換気扇フィルターです。",
-          "url": "https://a.r10.to/hYiXb7",
-          "type": "rakuten"
-        }
-      ],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "anti_mold_smoke",
-      "title": "防カビ燻煙",
-      "category": "bathroom",
-      "summary": "浴室全体のカビ発生を抑えるため。",
+      "id": "washer-tub",
+      "title": "洗濯槽クリーナー（洗濯槽洗浄）",
+      "category": "洗濯機",
+      "summary": "洗濯槽の見えない汚れやにおいを整え、衣類を気持ちよく洗いやすくするため。",
       "recommendedFrequency": "月1回",
       "estimatedMinutes": 10,
       "steps": [
-        "浴室を乾かす",
-        "防カビ燻煙剤を説明書通りに置く",
-        "所定時間換気する"
+        "洗濯槽クリーナーの説明を確認する",
+        "洗濯槽にクリーナーを入れる",
+        "槽洗浄コース、または指定の水量で運転する",
+        "終了後に糸くずフィルターを確認する",
+        "フタを開けて乾かす"
       ],
       "tips": [
-        "小さな子どもやペットが近づかないようにしてください。"
-      ],
-      "products": [
-        {
-          "label": "防カビ燻煙剤を見る",
-          "description": "防カビ燻煙に使いやすい防カビ燻煙剤です。",
-          "url": "https://a.r10.to/h5EaS6",
-          "type": "rakuten"
-        }
-      ],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "mirror_scale",
-      "title": "鏡の水垢掃除",
-      "category": "bathroom",
-      "summary": "白いうろこ汚れが固着する前に落とすため。",
-      "recommendedFrequency": "月1回",
-      "estimatedMinutes": 15,
-      "steps": [
-        "鏡を濡らす",
-        "鏡の水垢クリーナーでこする",
-        "洗い流して浴室スクイージーで水分を切る"
-      ],
-      "tips": [
-        "研磨パッドは鏡のコーティングを傷つけることがあります。"
-      ],
-      "products": [
-        {
-          "label": "鏡の水垢クリーナーを見る",
-          "description": "鏡の水垢掃除に使いやすい鏡の水垢クリーナーです。",
-          "url": "https://a.r10.to/h593QV",
-          "type": "rakuten"
-        },
-        {
-          "label": "浴室スクイージーを見る",
-          "description": "鏡の水垢掃除に使いやすい浴室スクイージーです。",
-          "url": "https://a.r10.to/hgGSq5",
-          "type": "rakuten"
-        }
-      ],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "bathtub_apron",
-      "title": "浴槽エプロン内部チェック",
-      "category": "bathroom",
-      "summary": "見えない部分のカビやにおいを早めに見つけるため。",
-      "recommendedFrequency": "季節ごと",
-      "estimatedMinutes": 20,
-      "steps": [
-        "説明書で外せるタイプか確認する",
-        "外せる場合だけ内部を見る",
-        "汚れが見える範囲だけ浴室用カビ取り剤で対処する",
-        "汚れやにおいを記録する"
-      ],
-      "tips": [
-        "外せないタイプや戻せない不安がある場合は触らないでください。"
-      ],
-      "products": [],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "lint_filter",
-      "title": "糸くずフィルター掃除",
-      "category": "other",
-      "summary": "ごみ詰まりや洗濯物への付着を防ぐため。",
-      "recommendedFrequency": "週1回",
-      "estimatedMinutes": 5,
-      "steps": [
-        "洗濯機糸くずフィルターを外す",
-        "糸くずを取る",
-        "水洗いして戻す",
-        "破れや目詰まりが強い場合は交換する"
-      ],
-      "tips": [
-        "機種ごとの外し方を確認してください。"
-      ],
-      "products": [],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "washer_drain_filter",
-      "title": "排水フィルター掃除",
-      "category": "drain",
-      "summary": "排水不良やにおいを予防するため。",
-      "recommendedFrequency": "月1回",
-      "estimatedMinutes": 15,
-      "steps": [
-        "水受けトレーを用意する",
-        "洗濯機排水フィルターをゆっくり外す",
-        "ごみを取り水洗いする",
-        "しっかり戻す"
-      ],
-      "tips": [
-        "水漏れしやすいので説明書の手順を守ってください。"
-      ],
-      "products": [
-        {
-          "label": "掃除用ゴム手袋を見る",
-          "description": "排水フィルター掃除に使いやすい掃除用ゴム手袋です。",
-          "url": "https://a.r10.to/hkLq7V",
-          "type": "rakuten"
-        }
-      ],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "washer_tub",
-      "title": "洗濯槽洗浄",
-      "category": "other",
-      "summary": "黒カビやにおいを抑えるため。",
-      "recommendedFrequency": "月1回",
-      "estimatedMinutes": 10,
-      "steps": [
-        "洗濯槽クリーナーを入れる",
-        "槽洗浄コースを選ぶ",
-        "終了後に汚れを拭き取る"
-      ],
-      "tips": [
-        "酸素系と塩素系を混ぜないでください。"
+        "塩素系と酸素系は混ぜないでください。",
+        "機種によって使えるクリーナーが違うため、説明書も確認すると安心です。",
+        "においが強い時は一度で落とし切ろうとせず、間隔を空けて整えてください。"
       ],
       "products": [
         {
           "label": "洗濯槽クリーナーを見る",
-          "description": "洗濯槽洗浄に使いやすい洗濯槽クリーナーです。",
+          "description": "洗濯槽のにおいや汚れが気になる時に使いやすいクリーナーです。",
           "url": "https://a.r10.to/hPI3OF",
-          "type": "rakuten"
+          "type": "product"
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-07"
+      "updatedAt": "2026-05-08"
     },
     {
-      "id": "washer_drain",
-      "title": "洗濯機排水口掃除",
-      "category": "drain",
-      "summary": "排水口の詰まりやにおいを予防するため。",
-      "recommendedFrequency": "季節ごと",
-      "estimatedMinutes": 20,
-      "steps": [
-        "掃除用ゴム手袋をつけて洗濯機まわりの水を止める",
-        "見える範囲のごみを取る",
-        "排水口ブラシで届く範囲を洗う",
-        "必要に応じてパイプクリーナーを説明書通りに使う",
-        "排水口まわりを拭く"
-      ],
-      "tips": [
-        "洗濯機を無理に動かさないでください。"
-      ],
-      "products": [
-        {
-          "label": "掃除用ゴム手袋を見る",
-          "description": "洗濯機排水口掃除に使いやすい掃除用ゴム手袋です。",
-          "url": "https://a.r10.to/hkLq7V",
-          "type": "rakuten"
-        },
-        {
-          "label": "排水口ブラシを見る",
-          "description": "洗濯機排水口掃除に使いやすい排水口ブラシです。",
-          "url": "https://a.r10.to/hgfGMJ",
-          "type": "rakuten"
-        },
-        {
-          "label": "パイプクリーナーを見る",
-          "description": "洗濯機排水口掃除に使いやすいパイプクリーナーです。",
-          "url": "https://a.r10.to/hgJhJO",
-          "type": "rakuten"
-        }
-      ],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "dishwasher_filter",
-      "title": "食洗機フィルター掃除",
-      "category": "kitchen",
-      "summary": "洗浄力低下やにおいを防ぐため。",
-      "recommendedFrequency": "週1回",
-      "estimatedMinutes": 5,
-      "steps": [
-        "食洗機残さいフィルターを外す",
-        "ごみを捨てる",
-        "水洗いして戻す",
-        "破れや劣化があれば交換する"
-      ],
-      "tips": [
-        "庫内が熱い時は冷めてから作業してください。"
-      ],
-      "products": [],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "dishwasher_clean",
-      "title": "食洗機庫内洗浄",
-      "category": "kitchen",
-      "summary": "庫内のぬめりや水垢を抑えるため。",
-      "recommendedFrequency": "月1回",
-      "estimatedMinutes": 10,
-      "steps": [
-        "食器を空にする",
-        "食洗機庫内クリーナーを説明書通りに入れる",
-        "洗浄コースを実行する"
-      ],
-      "tips": [
-        "専用洗浄剤を使い、説明書を確認してください。"
-      ],
-      "products": [
-        {
-          "label": "食洗機庫内クリーナーを見る",
-          "description": "食洗機庫内洗浄に使いやすい食洗機庫内クリーナーです。",
-          "url": "https://a.r10.to/hgbF2x",
-          "type": "rakuten"
-        }
-      ],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "dishwasher_packing",
-      "title": "食洗機まわりのパッキン掃除",
-      "category": "kitchen",
-      "summary": "パッキンの汚れやカビを防ぐため。",
+      "id": "aircon-vent",
+      "title": "エアコン吹き出し口掃除",
+      "category": "エアコン",
+      "summary": "吹き出し口のほこりや黒ずみを整え、風を気持ちよく使いやすくするため。",
       "recommendedFrequency": "月1回",
       "estimatedMinutes": 10,
       "steps": [
         "電源を切る",
-        "パッキンをマイクロファイバークロスで拭く",
-        "細かい溝はパッキン掃除ブラシで汚れを取る",
-        "水分を拭き取る"
+        "見える範囲のほこりを乾いた布で取る",
+        "固くしぼった布で吹き出し口まわりを拭く",
+        "送風でにおいを確認する"
       ],
       "tips": [
-        "強く引っ張るとパッキンを傷めることがあります。"
+        "奥の部品は無理に触らないでください。",
+        "黒ずみやにおいが強い場合は内部クリーニングを検討してください。"
       ],
       "products": [
         {
           "label": "マイクロファイバークロスを見る",
-          "description": "食洗機まわりのパッキン掃除に使いやすいマイクロファイバークロスです。",
+          "description": "シンクや窓、家電まわりを拭く時に使いやすいクロスです。",
           "url": "https://a.r10.to/hgGdkQ",
-          "type": "rakuten"
-        },
-        {
-          "label": "パッキン掃除ブラシを見る",
-          "description": "食洗機まわりのパッキン掃除に使いやすいパッキン掃除ブラシです。",
-          "url": "https://a.r10.to/h5p2n2",
-          "type": "rakuten"
+          "type": "product"
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-07"
+      "updatedAt": "2026-05-08"
     },
     {
-      "id": "airpurifier_pre",
-      "title": "プレフィルター掃除",
-      "category": "aircon",
-      "summary": "吸気を妨げず集じん性能を保つため。",
+      "id": "aircon-outdoor",
+      "title": "室外機まわり・外装掃除",
+      "category": "エアコン",
+      "summary": "室外機の吸排気を妨げにくくし、効率よく運転しやすくするため。",
+      "recommendedFrequency": "季節ごと",
+      "estimatedMinutes": 15,
+      "steps": [
+        "室外機まわりの落ち葉や物をどける",
+        "外装のほこりを乾いた布で拭く",
+        "吹き出し口をふさぐ物がないか見る",
+        "周囲に水はけの悪い場所がないか確認する"
+      ],
+      "tips": [
+        "室外機内部は分解・水洗いしないでください。",
+        "高い場所や狭い場所にある場合は見える範囲だけで大丈夫です。"
+      ],
+      "products": [
+        {
+          "label": "屋外用ほうき・ちりとりを見る",
+          "description": "室外機まわりやベランダの落ち葉・砂ぼこりを整える時に使いやすい道具です。",
+          "url": "https://a.r10.to/hYHGlZ",
+          "type": "product"
+        },
+        {
+          "label": "マイクロファイバークロスを見る",
+          "description": "シンクや窓、家電まわりを拭く時に使いやすいクロスです。",
+          "url": "https://a.r10.to/hgGdkQ",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "aircon-cleaning",
+      "title": "エアコン内部クリーニング",
+      "category": "エアコン",
+      "summary": "家庭で届きにくい内部汚れやにおいが気になる時の相談目安を確認するため。",
+      "recommendedFrequency": "年1回",
+      "estimatedMinutes": 10,
+      "steps": [
+        "吹き出し口の黒ずみを見る",
+        "運転時のにおいを確認する",
+        "冷暖房の効きが弱くないか確認する",
+        "必要なら専門業者に相談する"
+      ],
+      "tips": [
+        "市販スプレーは故障につながることがあるため、説明書を確認してください。",
+        "無理に分解しないでください。",
+        "サービスリンクは準備できた時だけ表示します。"
+      ],
+      "products": [],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "bath-pipe-cleaner",
+      "title": "浴室排水管クリーナー",
+      "category": "お風呂",
+      "summary": "排水口の奥のぬめりやにおいが気になる時に整えやすくするため。",
+      "recommendedFrequency": "月1回",
+      "estimatedMinutes": 10,
+      "steps": [
+        "排水口のゴミを取る",
+        "換気をする",
+        "排水管クリーナーを説明どおりに使う",
+        "指定時間を置いて水で流す"
+      ],
+      "tips": [
+        "洗剤の量と放置時間は製品表示を確認してください。",
+        "他の洗剤と混ぜないでください。"
+      ],
+      "products": [
+        {
+          "label": "パイプクリーナーを見る",
+          "description": "排水管のぬめりやにおいが気になる時に使いやすいクリーナーです。",
+          "url": "https://a.r10.to/hgJhJO",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "bath-vent-filter",
+      "title": "浴室換気扇フィルター・表面掃除",
+      "category": "お風呂",
+      "summary": "換気効率を保ち、湿気がこもりにくい状態にするため。",
+      "recommendedFrequency": "月1回",
+      "estimatedMinutes": 15,
+      "steps": [
+        "電源を切る",
+        "フィルターやカバーを外せる範囲で外す",
+        "ほこりを掃除機や布で取る",
+        "乾いた状態で戻す"
+      ],
+      "tips": [
+        "高い位置の作業は安定した足場で無理なく行ってください。",
+        "外し方がわからない場合は表面だけで大丈夫です。"
+      ],
+      "products": [
+        {
+          "label": "フィルター掃除ブラシを見る",
+          "description": "フィルターや細かいすき間のほこりをやさしく落としやすいブラシです。",
+          "url": "https://a.r10.to/hYNB7R",
+          "type": "product"
+        },
+        {
+          "label": "換気扇フィルターを見る",
+          "description": "換気扇まわりの汚れ対策に使える交換・貼り付けタイプのフィルターです。",
+          "url": "https://a.r10.to/hYiXb7",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "bath-vent-internal",
+      "title": "浴室換気扇内部掃除",
+      "category": "お風呂",
+      "summary": "表面掃除で取れないほこりが気になる時に、内部清掃の必要性を確認するため。",
+      "recommendedFrequency": "年1回",
+      "estimatedMinutes": 10,
+      "steps": [
+        "カバーまわりのほこりを見る",
+        "換気音や吸い込みの弱さを確認する",
+        "説明書で掃除できる範囲を確認する",
+        "難しければ専門業者に相談する"
+      ],
+      "tips": [
+        "無理に分解しないでください。",
+        "電源を切ってから確認してください。",
+        "サービスリンクは準備できた時だけ表示します。"
+      ],
+      "products": [],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "anti-mold-smoke",
+      "title": "浴室防カビ燻煙",
+      "category": "お風呂",
+      "summary": "湿気の多い浴室でカビを増やしにくくするため。",
+      "recommendedFrequency": "月1回",
+      "estimatedMinutes": 10,
+      "steps": [
+        "浴室内のものを必要に応じて外へ出す",
+        "水気を軽く切る",
+        "防カビ燻煙剤を説明どおりに使う",
+        "終了後に換気する"
+      ],
+      "tips": [
+        "使用できない素材や小物がないか製品表示を確認してください。",
+        "掃除後に使うと予防しやすいです。"
+      ],
+      "products": [
+        {
+          "label": "防カビ燻煙剤を見る",
+          "description": "浴室のカビ予防を手軽に取り入れたい時に使いやすいアイテムです。",
+          "url": "https://a.r10.to/h5EaS6",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "mirror-scale",
+      "title": "浴室の水垢・ウロコ掃除",
+      "category": "お風呂",
+      "summary": "鏡や蛇口まわりの白い汚れを整え、見た目をすっきりさせるため。",
+      "recommendedFrequency": "月1回",
+      "estimatedMinutes": 15,
+      "steps": [
+        "鏡や蛇口を水で濡らす",
+        "水垢クリーナーをやさしく使う",
+        "スポンジや布でこすりすぎないように洗う",
+        "水で流してスクイージーで水切りする"
+      ],
+      "tips": [
+        "研磨タイプは素材を傷めることがあります。",
+        "まずは目立たない場所で試してください。"
+      ],
+      "products": [
+        {
+          "label": "鏡の水垢クリーナーを見る",
+          "description": "鏡や蛇口まわりの白い水垢を整えたい時に使いやすいクリーナーです。",
+          "url": "https://a.r10.to/h593QV",
+          "type": "product"
+        },
+        {
+          "label": "浴室スクイージーを見る",
+          "description": "入浴後の水切りを手早く済ませたい時に便利です。",
+          "url": "https://a.r10.to/hgGSq5",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "bathtub-apron",
+      "title": "浴槽エプロン内部チェック",
+      "category": "お風呂",
+      "summary": "浴槽まわりの見えにくい汚れやにおいの原因に気づきやすくするため。",
+      "recommendedFrequency": "季節ごと",
+      "estimatedMinutes": 10,
+      "steps": [
+        "エプロンが外せるタイプか説明書で確認する",
+        "外せる場合だけ手前の汚れを見る",
+        "見える範囲を水で流す",
+        "しっかり乾かして戻す"
+      ],
+      "tips": [
+        "外し方がわからない場合は触らなくて大丈夫です。",
+        "奥まで無理に手を入れないでください。",
+        "においが強い場合は専門業者に相談してください。"
+      ],
+      "products": [],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "kitchen-pipe",
+      "title": "キッチン排水管クリーナー",
+      "category": "キッチン",
+      "summary": "排水管のぬめりやにおいが気になる時に整えやすくするため。",
+      "recommendedFrequency": "月1回",
+      "estimatedMinutes": 10,
+      "steps": [
+        "排水口のゴミ受けを空にする",
+        "換気する",
+        "パイプクリーナーを説明どおりに入れる",
+        "指定時間を置いて水で流す"
+      ],
+      "tips": [
+        "他の洗剤と混ぜないでください。",
+        "詰まりが強い時は無理に流し続けず相談してください。"
+      ],
+      "products": [
+        {
+          "label": "パイプクリーナーを見る",
+          "description": "排水管のぬめりやにおいが気になる時に使いやすいクリーナーです。",
+          "url": "https://a.r10.to/hgJhJO",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "sink-polish",
+      "title": "キッチンシンク磨き",
+      "category": "キッチン",
+      "summary": "水垢やくすみを整え、シンクを気持ちよく使いやすくするため。",
+      "recommendedFrequency": "月1回",
+      "estimatedMinutes": 15,
+      "steps": [
+        "食器や小物をどける",
+        "シンクを水で濡らす",
+        "シンク用クリーナーでやさしく磨く",
+        "水で流して乾拭きする"
+      ],
+      "tips": [
+        "素材に合うクリーナーを選んでください。",
+        "強くこすりすぎないでください。"
+      ],
+      "products": [
+        {
+          "label": "シンク用クリーナーを見る",
+          "description": "シンクのくすみや水垢を整えたい時に使いやすいクリーナーです。",
+          "url": "https://a.r10.to/hPJ5Sv",
+          "type": "product"
+        },
+        {
+          "label": "マイクロファイバークロスを見る",
+          "description": "シンクや窓、家電まわりを拭く時に使いやすいクロスです。",
+          "url": "https://a.r10.to/hgGdkQ",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "rangehood-filter",
+      "title": "レンジフードフィルター・表面掃除",
+      "category": "キッチン",
+      "summary": "油汚れをためにくくし、換気しやすい状態を保つため。",
+      "recommendedFrequency": "月1回",
+      "estimatedMinutes": 25,
+      "steps": [
+        "電源を切る",
+        "フィルターを外す",
+        "油汚れ用洗剤で洗う",
+        "外装をクロスで拭く",
+        "乾かして戻す"
+      ],
+      "tips": [
+        "鋭い部品に気をつけてください。",
+        "塗装面は強い洗剤で傷むことがあります。"
+      ],
+      "products": [
+        {
+          "label": "油汚れ用洗剤を見る",
+          "description": "レンジフードやキッチンまわりの油汚れを落とす時に使いやすい洗剤です。",
+          "url": "https://a.r10.to/hP1cWW",
+          "type": "product"
+        },
+        {
+          "label": "掃除用ゴム手袋を見る",
+          "description": "排水口や油汚れの掃除をする時に手を守りやすい手袋です。",
+          "url": "https://a.r10.to/hkLq7V",
+          "type": "product"
+        },
+        {
+          "label": "換気扇フィルターを見る",
+          "description": "換気扇まわりの汚れ対策に使える交換・貼り付けタイプのフィルターです。",
+          "url": "https://a.r10.to/hYiXb7",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "sirocco-fan",
+      "title": "レンジフード内部掃除",
+      "category": "キッチン",
+      "summary": "レンジフード内部の油汚れを整え、においや換気の弱さを軽くするため。",
+      "recommendedFrequency": "半年に1回",
+      "estimatedMinutes": 40,
+      "steps": [
+        "電源を切る",
+        "説明書を見て外せる部品だけ外す",
+        "つけ置きできる部品を洗う",
+        "シロッコファン用ブラシで汚れを落とす",
+        "完全に乾かして戻す"
+      ],
+      "tips": [
+        "外せない部品は無理に外さないでください。",
+        "高所作業が不安な場合は専門業者に相談してください。"
+      ],
+      "products": [
+        {
+          "label": "油汚れ用洗剤を見る",
+          "description": "レンジフードやキッチンまわりの油汚れを落とす時に使いやすい洗剤です。",
+          "url": "https://a.r10.to/hP1cWW",
+          "type": "product"
+        },
+        {
+          "label": "つけおき用洗剤を見る",
+          "description": "ファンや部品の油汚れをゆるめたい時に使いやすい洗剤です。",
+          "url": "https://a.r10.to/h53mRG",
+          "type": "product"
+        },
+        {
+          "label": "つけ置き用バケツを見る",
+          "description": "部品をまとめてつけ置きしたい時にあると作業しやすい容器です。",
+          "url": "https://a.r10.to/hgb6QD",
+          "type": "product"
+        },
+        {
+          "label": "シロッコファン専用ブラシを見る",
+          "description": "レンジフード内部の細かい羽根まわりを掃除しやすいブラシです。",
+          "url": "https://a.r10.to/h8oOoM",
+          "type": "product"
+        },
+        {
+          "label": "掃除用ゴム手袋を見る",
+          "description": "排水口や油汚れの掃除をする時に手を守りやすい手袋です。",
+          "url": "https://a.r10.to/hkLq7V",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "fridge-area",
+      "title": "冷蔵庫下・裏掃除",
+      "category": "キッチン",
+      "summary": "冷蔵庫まわりのほこりを整え、においや虫の原因を減らしやすくするため。",
+      "recommendedFrequency": "半年に1回",
+      "estimatedMinutes": 20,
+      "steps": [
+        "動かせる範囲だけ冷蔵庫を少しずらす",
+        "下や裏のほこりを取る",
+        "床をクロスで拭く",
+        "無理なく元の位置に戻す"
+      ],
+      "tips": [
+        "重い冷蔵庫は無理に動かさないでください。",
+        "電源コードや排水皿に触る時は説明書を確認してください。"
+      ],
+      "products": [
+        {
+          "label": "マイクロファイバークロスを見る",
+          "description": "シンクや窓、家電まわりを拭く時に使いやすいクロスです。",
+          "url": "https://a.r10.to/hgGdkQ",
+          "type": "product"
+        },
+        {
+          "label": "屋外用ほうき・ちりとりを見る",
+          "description": "室外機まわりやベランダの落ち葉・砂ぼこりを整える時に使いやすい道具です。",
+          "url": "https://a.r10.to/hYHGlZ",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "lint-filter",
+      "title": "糸くずフィルター掃除",
+      "category": "洗濯機",
+      "summary": "糸くずやぬめりをためにくくし、洗濯機を気持ちよく使うため。",
+      "recommendedFrequency": "週1回",
+      "estimatedMinutes": 5,
+      "steps": [
+        "糸くずフィルターを外す",
+        "たまったゴミを取る",
+        "水で軽く洗う",
+        "乾かして戻す"
+      ],
+      "tips": [
+        "機種ごとの外し方を確認してください。",
+        "破れや劣化がある場合は交換も検討してください。"
+      ],
+      "products": [],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "washer-drain-filter",
+      "title": "排水フィルター掃除",
+      "category": "洗濯機",
+      "summary": "排水まわりの詰まりやにおいを出にくくするため。",
+      "recommendedFrequency": "月1回",
+      "estimatedMinutes": 10,
+      "steps": [
+        "排水フィルターの位置を確認する",
+        "水が出る場合に備えてタオルを置く",
+        "外せる範囲でゴミを取る",
+        "フィルターを戻す"
+      ],
+      "tips": [
+        "外せないタイプや戻せない不安がある場合は触らなくて大丈夫です。",
+        "水漏れがある場合は使用を止めて相談してください。"
+      ],
+      "products": [
+        {
+          "label": "掃除用ゴム手袋を見る",
+          "description": "排水口や油汚れの掃除をする時に手を守りやすい手袋です。",
+          "url": "https://a.r10.to/hkLq7V",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "washer-drain",
+      "title": "洗濯機排水口掃除",
+      "category": "洗濯機",
+      "summary": "洗濯機まわりの排水不良やにおいを起こしにくくするため。",
+      "recommendedFrequency": "半年に1回",
+      "estimatedMinutes": 20,
+      "steps": [
+        "洗濯機の電源を切る",
+        "排水口まわりのほこりを取る",
+        "外せる部品だけ外して洗う",
+        "排水口ブラシで見える範囲を掃除する",
+        "部品を戻して水漏れがないか見る"
+      ],
+      "tips": [
+        "洗濯機を無理に動かさないでください。",
+        "手が届かない場合は専門業者に相談してください。"
+      ],
+      "products": [
+        {
+          "label": "掃除用ゴム手袋を見る",
+          "description": "排水口や油汚れの掃除をする時に手を守りやすい手袋です。",
+          "url": "https://a.r10.to/hkLq7V",
+          "type": "product"
+        },
+        {
+          "label": "排水口ブラシを見る",
+          "description": "排水口のすみや細い部分のぬめりを落としやすいブラシです。",
+          "url": "https://a.r10.to/hgfGMJ",
+          "type": "product"
+        },
+        {
+          "label": "パイプクリーナーを見る",
+          "description": "排水管のぬめりやにおいが気になる時に使いやすいクリーナーです。",
+          "url": "https://a.r10.to/hgJhJO",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "washer-professional-cleaning",
+      "title": "業者による洗濯機分解清掃",
+      "category": "洗濯機",
+      "summary": "家庭で届きにくい洗濯機内部の汚れやにおいが気になる時の相談目安を確認するため。",
+      "recommendedFrequency": "年1回",
+      "estimatedMinutes": 10,
+      "steps": [
+        "洗濯物への黒い汚れがないか見る",
+        "洗濯槽洗浄後もにおいが残るか確認する",
+        "使用年数や機種を確認する",
+        "必要なら専門業者に相談する"
+      ],
+      "tips": [
+        "無理に分解しないでください。",
+        "サービスリンクは準備できた時だけ表示します。"
+      ],
+      "products": [],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "dishwasher-clean",
+      "title": "食洗機庫内洗浄",
+      "category": "キッチン",
+      "summary": "庫内のぬめりやにおいを整え、食器を気持ちよく洗いやすくするため。",
+      "recommendedFrequency": "月1回",
+      "estimatedMinutes": 10,
+      "steps": [
+        "庫内の食べかすを取る",
+        "フィルターを確認する",
+        "庫内クリーナーを説明どおりに入れる",
+        "洗浄コースで運転する"
+      ],
+      "tips": [
+        "食洗機対応のクリーナーを使ってください。",
+        "庫内が熱い時は冷めてから作業してください。"
+      ],
+      "products": [
+        {
+          "label": "食洗機庫内クリーナーを見る",
+          "description": "食洗機庫内のぬめりやにおいを整えたい時に使いやすいクリーナーです。",
+          "url": "https://a.r10.to/hgbF2x",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "dishwasher-nozzle-filter",
+      "title": "食洗機ノズル・フィルター確認",
+      "category": "キッチン",
+      "summary": "洗い残りを減らし、食洗機の水流を保ちやすくするため。",
+      "recommendedFrequency": "月1回",
+      "estimatedMinutes": 10,
+      "steps": [
+        "フィルターを外して食べかすを取る",
+        "ノズルに詰まりがないか見る",
+        "外せる部品だけ水洗いする",
+        "元に戻して空運転で確認する"
+      ],
+      "tips": [
+        "ノズルの外し方は機種ごとに違います。",
+        "細い穴を強く突かないでください。"
+      ],
+      "products": [],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "dishwasher-packing",
+      "title": "食洗機まわりのパッキン掃除",
+      "category": "キッチン",
+      "summary": "パッキンまわりのぬめりやにおいを整え、水漏れに気づきやすくするため。",
+      "recommendedFrequency": "月1回",
+      "estimatedMinutes": 10,
+      "steps": [
+        "扉まわりのパッキンを確認する",
+        "固くしぼったクロスで拭く",
+        "細い部分をブラシでやさしく掃除する",
+        "水気を拭き取る"
+      ],
+      "tips": [
+        "強く引っ張らないでください。",
+        "ひび割れがある場合は修理相談を検討してください。"
+      ],
+      "products": [
+        {
+          "label": "マイクロファイバークロスを見る",
+          "description": "シンクや窓、家電まわりを拭く時に使いやすいクロスです。",
+          "url": "https://a.r10.to/hgGdkQ",
+          "type": "product"
+        },
+        {
+          "label": "パッキン掃除ブラシを見る",
+          "description": "細いすき間やパッキンまわりの汚れを落としやすいブラシです。",
+          "url": "https://a.r10.to/h5p2n2",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "airpurifier-pre",
+      "title": "空気清浄機フィルター掃除",
+      "category": "空気清浄機",
+      "summary": "プレフィルターのほこりを整え、空気清浄機を使いやすい状態にするため。",
       "recommendedFrequency": "月1回",
       "estimatedMinutes": 10,
       "steps": [
         "電源を切る",
         "前面パネルを外す",
-        "フィルター掃除ブラシでプレフィルターのほこりを取る"
+        "プレフィルターのほこりを掃除機で取る",
+        "乾いた布で外装を拭く",
+        "元に戻す"
       ],
       "tips": [
-        "水洗い可否は機種の説明書を確認してください。"
+        "脱臭フィルター・集じんフィルターは掃除ではなく交換目安を説明書で確認してください。",
+        "水洗い不可のフィルターがあります。"
       ],
       "products": [
         {
           "label": "フィルター掃除ブラシを見る",
-          "description": "プレフィルター掃除に使いやすいフィルター掃除ブラシです。",
+          "description": "フィルターや細かいすき間のほこりをやさしく落としやすいブラシです。",
           "url": "https://a.r10.to/hYNB7R",
-          "type": "rakuten"
+          "type": "product"
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-07"
+      "updatedAt": "2026-05-08"
     },
     {
-      "id": "airpurifier_dust",
-      "title": "集じんフィルター確認",
-      "category": "aircon",
-      "summary": "交換時期や汚れ具合を把握するため。",
-      "recommendedFrequency": "季節ごと",
-      "estimatedMinutes": 5,
-      "steps": [
-        "空気清浄機集じんフィルターの色やほこりを確認する",
-        "交換目安を説明書で確認する",
-        "必要なら交換予定を立てる"
-      ],
-      "tips": [
-        "集じんフィルターは水洗い不可の機種があります。"
-      ],
-      "products": [],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "airpurifier_deodorize",
-      "title": "脱臭フィルター確認",
-      "category": "aircon",
-      "summary": "におい戻りを防ぐため。",
-      "recommendedFrequency": "季節ごと",
-      "estimatedMinutes": 5,
-      "steps": [
-        "空気清浄機脱臭フィルターを確認する",
-        "においが強ければ陰干しや交換を検討する"
-      ],
-      "tips": [
-        "直射日光や水洗い不可の素材に注意してください。"
-      ],
-      "products": [],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "humidifier_tank",
-      "title": "タンク洗浄",
-      "category": "aircon",
-      "summary": "ぬめりや雑菌の繁殖を抑えるため。",
+      "id": "humidifier-tank",
+      "title": "加湿器タンク・トレー掃除",
+      "category": "加湿器",
+      "summary": "タンクやトレーのぬめりを整え、においを出にくくするため。",
       "recommendedFrequency": "週1回",
       "estimatedMinutes": 10,
       "steps": [
-        "水を捨てる",
-        "加湿器タンク洗浄剤を説明書通りに使う",
-        "細かい部分はボトル洗いブラシで洗う",
-        "乾いた布で外側を拭く"
+        "電源を切る",
+        "タンクの水を捨てる",
+        "タンクとトレーを水洗いする",
+        "細い部分をブラシで洗う",
+        "乾かして戻す"
       ],
       "tips": [
-        "水を入れたまま長期間放置しないでください。"
+        "水は毎日入れ替えると整えやすいです。",
+        "ぬめりが強い時は洗浄剤も検討してください。"
       ],
       "products": [
         {
           "label": "加湿器タンク洗浄剤を見る",
-          "description": "タンク洗浄に使いやすい加湿器タンク洗浄剤です。",
+          "description": "加湿器タンクやトレーのぬめり対策に使いやすい洗浄剤です。",
           "url": "https://a.r10.to/h5GA25",
-          "type": "rakuten"
+          "type": "product"
         },
         {
           "label": "ボトル洗いブラシを見る",
-          "description": "タンク洗浄に使いやすいボトル洗いブラシです。",
+          "description": "タンクの底や角を洗いやすい柄付きブラシです。",
           "url": "https://a.r10.to/hYxAv5",
-          "type": "rakuten"
+          "type": "product"
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-07"
+      "updatedAt": "2026-05-08"
     },
     {
-      "id": "humidifier_filter",
-      "title": "加湿フィルター洗浄",
-      "category": "aircon",
-      "summary": "加湿能力の低下とにおいを防ぐため。",
+      "id": "humidifier-filter",
+      "title": "加湿器フィルター掃除",
+      "category": "加湿器",
+      "summary": "加湿フィルターの汚れを整え、においや加湿量の低下を起こしにくくするため。",
       "recommendedFrequency": "月1回",
       "estimatedMinutes": 20,
       "steps": [
-        "加湿器交換フィルターの汚れや交換時期を確認する",
         "フィルターを外す",
-        "水またはぬるま湯で洗う",
-        "陰干しして戻す"
+        "水でやさしくすすぐ",
+        "汚れが強い場合は説明書どおりにつけ置きする",
+        "しっかり乾かして戻す"
       ],
       "tips": [
-        "強くこするとフィルターを傷めます。"
+        "フィルターの種類によって洗い方が違います。",
+        "交換目安も説明書で確認してください。"
       ],
       "products": [
         {
           "label": "つけ置き用バケツを見る",
-          "description": "加湿フィルター洗浄に使いやすいつけ置き用バケツです。",
+          "description": "部品をまとめてつけ置きしたい時にあると作業しやすい容器です。",
           "url": "https://a.r10.to/hgb6QD",
-          "type": "rakuten"
+          "type": "product"
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-07"
+      "updatedAt": "2026-05-08"
     },
     {
-      "id": "humidifier_citric",
-      "title": "クエン酸洗浄",
-      "category": "aircon",
-      "summary": "白い水垢を落として清潔に保つため。",
+      "id": "humidifier-citric",
+      "title": "加湿器クエン酸洗浄",
+      "category": "加湿器",
+      "summary": "白い水垢やにおいを整え、加湿器を気持ちよく使うため。",
       "recommendedFrequency": "月1回",
       "estimatedMinutes": 30,
       "steps": [
-        "説明書の濃度でクエン酸水を作る",
-        "つけ置き用バケツに部品を入れてつけ置きする",
-        "十分にすすいで乾かす"
+        "説明書でクエン酸洗浄できるか確認する",
+        "指定濃度でクエン酸水を作る",
+        "タンクや部品をつけ置きする",
+        "よくすすいで乾かす"
       ],
       "tips": [
-        "塩素系洗剤とクエン酸は絶対に混ぜないでください。"
+        "金属部品や使用不可の素材に注意してください。",
+        "クエン酸と塩素系洗剤を混ぜないでください。"
       ],
       "products": [
-        {
-          "label": "つけ置き用バケツを見る",
-          "description": "クエン酸洗浄に使いやすいつけ置き用バケツです。",
-          "url": "https://a.r10.to/hgb6QD",
-          "type": "rakuten"
-        },
         {
           "label": "クエン酸を見る",
-          "description": "クエン酸洗浄に使いやすいクエン酸です。",
+          "description": "加湿器や水まわりの白い汚れを整える時に使いやすい定番アイテムです。",
           "url": "https://a.r10.to/hYxABJ",
-          "type": "rakuten"
-        }
-      ],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "gutter",
-      "title": "雨樋チェック",
-      "category": "exterior",
-      "summary": "詰まりや破損による雨漏りや外壁汚れを防ぐため。",
-      "recommendedFrequency": "季節ごと",
-      "estimatedMinutes": 20,
-      "steps": [
-        "地上から雨樋を見る",
-        "雨の日に水の流れを確認する",
-        "落ち葉掃除トングで安全に届く範囲の落ち葉だけ取る",
-        "落ち葉が多い場所は雨樋ネット・落ち葉よけを検討する"
-      ],
-      "tips": [
-        "高所には登らず、危険な場合は業者に相談してください。"
-      ],
-      "products": [
-        {
-          "label": "雨樋ネット・落ち葉よけを見る",
-          "description": "雨樋チェックに使いやすい雨樋ネット・落ち葉よけです。",
-          "url": "https://a.r10.to/hgy0Yv",
-          "type": "rakuten"
+          "type": "product"
         },
         {
-          "label": "落ち葉掃除トングを見る",
-          "description": "雨樋チェックに使いやすい落ち葉掃除トングです。",
-          "url": "https://a.r10.to/h8oeSM",
-          "type": "rakuten"
+          "label": "つけ置き用バケツを見る",
+          "description": "部品をまとめてつけ置きしたい時にあると作業しやすい容器です。",
+          "url": "https://a.r10.to/hgb6QD",
+          "type": "product"
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-07"
+      "updatedAt": "2026-05-08"
     },
     {
-      "id": "exterior_wall",
-      "title": "外壁チェック",
-      "category": "exterior",
-      "summary": "ひび割れや塗装劣化を早めに見つけるため。",
-      "recommendedFrequency": "年1回",
-      "estimatedMinutes": 20,
-      "steps": [
-        "地上から外壁チェック用双眼鏡でひび割れを見る",
-        "塗装の浮きやはがれを確認する",
-        "雨染みや変色を確認する",
-        "写真に残す"
-      ],
-      "tips": [
-        "高所作業はしないでください。"
-      ],
-      "products": [],
-      "services": [],
-      "updatedAt": "2026-05-07"
-    },
-    {
-      "id": "roof",
-      "title": "屋根チェック",
-      "category": "exterior",
-      "summary": "台風や大雨前後の破損を早めに把握するため。",
-      "recommendedFrequency": "年1回",
+      "id": "exterior-wall",
+      "title": "外壁・シーリングチェック",
+      "category": "外まわり",
+      "summary": "外壁やシーリングの小さな変化に気づきやすくするため。",
+      "recommendedFrequency": "半年に1回",
       "estimatedMinutes": 10,
       "steps": [
-        "地上から外壁チェック用双眼鏡やスマホ用望遠レンズで見える範囲を確認する",
-        "ずれや割れらしき箇所を写真に残す",
-        "異常があれば専門業者に相談する"
+        "地上から見える範囲で外壁を見る",
+        "ひび割れや浮きがないか確認する",
+        "シーリングの割れを見つけたら写真に残す",
+        "気になる場合は専門業者に相談する"
       ],
       "tips": [
-        "屋根には絶対に登らないでください。"
+        "高所作業はしないでください。",
+        "屋根まわりは外から見える範囲の確認にとどめます。"
       ],
       "products": [],
       "services": [],
-      "updatedAt": "2026-05-07"
+      "updatedAt": "2026-05-08"
     },
     {
-      "id": "site_drain",
-      "title": "敷地排水口掃除",
-      "category": "drain",
-      "summary": "大雨時の水はけを保つため。",
-      "recommendedFrequency": "月1回",
+      "id": "site-drain",
+      "title": "敷地排水口チェック・掃除",
+      "category": "外まわり",
+      "summary": "雨の日に水がたまりにくいよう、敷地の排水口を整えておくため。",
+      "recommendedFrequency": "季節ごと",
       "estimatedMinutes": 15,
       "steps": [
-        "落ち葉掃除トングで落ち葉や土を取る",
-        "側溝・排水口掃除ブラシで届く範囲を洗う",
-        "水の流れを確認する",
-        "詰まりが深い場合は記録する"
+        "排水口まわりの落ち葉や砂を取る",
+        "フタの上のゴミを払う",
+        "見える範囲をブラシで掃除する",
+        "水の流れを軽く確認する"
       ],
       "tips": [
-        "重いふたは無理に持ち上げないでください。"
+        "大雨の直後は無理に作業しないでください。",
+        "奥の詰まりは専門業者に相談してください。"
       ],
       "products": [
         {
           "label": "屋外用ほうき・ちりとりを見る",
-          "description": "敷地排水口掃除に使いやすい屋外用ほうき・ちりとりです。",
+          "description": "室外機まわりやベランダの落ち葉・砂ぼこりを整える時に使いやすい道具です。",
           "url": "https://a.r10.to/hYHGlZ",
-          "type": "rakuten"
+          "type": "product"
         },
         {
           "label": "側溝・排水口掃除ブラシを見る",
-          "description": "敷地排水口掃除に使いやすい側溝・排水口掃除ブラシです。",
+          "description": "屋外排水口や側溝の見える範囲を掃除しやすいブラシです。",
           "url": "https://a.r10.to/h5yNiu",
-          "type": "rakuten"
-        },
-        {
-          "label": "落ち葉掃除トングを見る",
-          "description": "敷地排水口掃除に使いやすい落ち葉掃除トングです。",
-          "url": "https://a.r10.to/h8oeSM",
-          "type": "rakuten"
+          "type": "product"
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-07"
+      "updatedAt": "2026-05-08"
     },
     {
       "id": "weeding",
-      "title": "雑草処理",
-      "category": "exterior",
-      "summary": "害虫や見た目の悪化を防ぐため。",
+      "title": "敷地まわりの雑草チェック・除去",
+      "category": "外まわり",
+      "summary": "虫や湿気が気になる場所を整え、外まわりをすっきり保つため。",
       "recommendedFrequency": "月1回",
-      "estimatedMinutes": 30,
+      "estimatedMinutes": 20,
       "steps": [
-        "伸びた場所を確認する",
-        "草抜き道具を使って根元から草を抜く",
-        "ごみとしてまとめる",
-        "何度も同じ場所に生える場合は記録する"
+        "気になる範囲の雑草を見る",
+        "抜ける範囲で草を取る",
+        "落ち葉や土を軽く片づける",
+        "伸びやすい場所をメモする"
       ],
       "tips": [
-        "除草剤は近隣やペットに配慮して使用してください。"
+        "暑い日は短時間で大丈夫です。",
+        "除草剤を使う場合は近隣やペットに配慮してください。"
       ],
       "products": [
         {
           "label": "草抜き道具を見る",
-          "description": "雑草処理に使いやすい草抜き道具です。",
+          "description": "敷地まわりの雑草を軽く整えたい時に使いやすい道具です。",
           "url": "https://a.r10.to/hgAEgA",
-          "type": "rakuten"
+          "type": "product"
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-07"
+      "updatedAt": "2026-05-08"
     },
     {
-      "id": "balcony_waterproof",
+      "id": "balcony-waterproof",
       "title": "ベランダ・バルコニー防水チェック",
-      "category": "exterior",
-      "summary": "防水層の劣化や雨漏りリスクを早めに見つけるため。",
-      "recommendedFrequency": "年1回",
-      "estimatedMinutes": 15,
+      "category": "ベランダ",
+      "summary": "床や立ち上がりの小さな劣化に気づきやすくするため。",
+      "recommendedFrequency": "半年に1回",
+      "estimatedMinutes": 10,
       "steps": [
-        "床面のひびや膨れを見る",
-        "排水口まわりを確認する",
-        "写真に残す"
+        "床のひびや浮きを見る",
+        "排水口まわりの水たまりを確認する",
+        "手すり下や隅の劣化を見る",
+        "気になる部分は写真に残す"
       ],
       "tips": [
-        "大きな劣化は専門業者に相談してください。"
+        "大きな劣化は専門業者に相談してください。",
+        "防水層を強くこすらないでください。"
       ],
       "products": [],
       "services": [],
-      "updatedAt": "2026-05-07"
+      "updatedAt": "2026-05-08"
     },
     {
-      "id": "balcony_drain",
-      "title": "ベランダ排水口掃除",
-      "category": "balcony",
-      "summary": "大雨時の排水不良を防ぐため。",
+      "id": "balcony-drain",
+      "title": "ベランダ・バルコニー排水口掃除",
+      "category": "ベランダ",
+      "summary": "雨水が流れやすい状態にして、水たまりを起こしにくくするため。",
       "recommendedFrequency": "月1回",
       "estimatedMinutes": 15,
       "steps": [
-        "屋外用ほうき・ちりとりで落ち葉やごみを取る",
-        "ベランダ掃除ブラシで排水口まわりを洗う",
-        "水が流れるか確認する",
-        "ごみが入りやすい場合はベランダ排水口カバーを検討する"
+        "落ち葉や大きなゴミを取る",
+        "排水口カバーを外せる範囲で外す",
+        "見える範囲をブラシで掃除する",
+        "水が流れるか軽く確認する"
       ],
       "tips": [
-        "共用部扱いの場合は管理規約を確認してください。"
+        "台風前や落ち葉の季節に見ておくと安心です。",
+        "奥の詰まりは無理に触らないでください。"
+      ],
+      "products": [
+        {
+          "label": "ベランダ排水口カバーを見る",
+          "description": "葉っぱや大きなゴミが排水口に入りにくくなる補助アイテムです。",
+          "url": "https://a.r10.to/hPvbrp",
+          "type": "product"
+        },
+        {
+          "label": "排水口ブラシを見る",
+          "description": "排水口のすみや細い部分のぬめりを落としやすいブラシです。",
+          "url": "https://a.r10.to/hgfGMJ",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "balcony-floor",
+      "title": "ベランダ・バルコニー床掃除",
+      "category": "ベランダ",
+      "summary": "砂ぼこりや汚れを整え、洗濯物や室内に汚れを持ち込みにくくするため。",
+      "recommendedFrequency": "月1回",
+      "estimatedMinutes": 20,
+      "steps": [
+        "床の物をどける",
+        "ほうきで砂ぼこりを集める",
+        "汚れが気になる場所をブラシでこする",
+        "水を使う場合は排水を確認する"
+      ],
+      "tips": [
+        "マンションでは水を流してよいか確認してください。",
+        "排水口へゴミを流さないでください。"
       ],
       "products": [
         {
           "label": "屋外用ほうき・ちりとりを見る",
-          "description": "ベランダ排水口掃除に使いやすい屋外用ほうき・ちりとりです。",
+          "description": "室外機まわりやベランダの落ち葉・砂ぼこりを整える時に使いやすい道具です。",
           "url": "https://a.r10.to/hYHGlZ",
-          "type": "rakuten"
-        },
-        {
-          "label": "排水口ブラシを見る",
-          "description": "ベランダ排水口掃除に使いやすい排水口ブラシです。",
-          "url": "https://a.r10.to/hgfGMJ",
-          "type": "rakuten"
-        },
-        {
-          "label": "ベランダ排水口カバーを見る",
-          "description": "ベランダ排水口掃除に使いやすいベランダ排水口カバーです。",
-          "url": "https://a.r10.to/hPvbrp",
-          "type": "rakuten"
+          "type": "product"
         },
         {
           "label": "ベランダ掃除ブラシを見る",
-          "description": "ベランダ排水口掃除に使いやすいベランダ掃除ブラシです。",
+          "description": "ベランダ床の砂ぼこりや汚れを落としやすいブラシです。",
           "url": "https://a.r10.to/h56Ejs",
-          "type": "rakuten"
+          "type": "product"
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-07"
+      "updatedAt": "2026-05-08"
     },
     {
-      "id": "window_sash",
-      "title": "窓サッシ掃除",
-      "category": "other",
-      "summary": "砂ぼこりや結露汚れをためないため。",
-      "recommendedFrequency": "月1回",
+      "id": "window-sash",
+      "title": "窓サッシ・レール掃除",
+      "category": "窓まわり",
+      "summary": "サッシの砂ぼこりを整え、窓を開け閉めしやすくするため。",
+      "recommendedFrequency": "季節ごと",
       "estimatedMinutes": 15,
       "steps": [
-        "サッシ掃除ブラシで砂を取る",
-        "水拭きする",
-        "窓掃除ワイパーで水分を切る"
+        "窓を開けて大きなゴミを取る",
+        "サッシブラシで砂ぼこりをかき出す",
+        "固くしぼった布で拭く",
+        "乾拭きする"
       ],
       "tips": [
-        "窓から身を乗り出さないでください。"
+        "砂が多い時は先に乾いた状態で取ると楽です。",
+        "無理に水を流し込まないでください。"
       ],
       "products": [
         {
           "label": "サッシ掃除ブラシを見る",
-          "description": "窓サッシ掃除に使いやすいサッシ掃除ブラシです。",
+          "description": "窓サッシやレールの細い部分を掃除しやすいブラシです。",
           "url": "https://a.r10.to/h9zKxi",
-          "type": "rakuten"
+          "type": "product"
         },
         {
-          "label": "窓掃除ワイパーを見る",
-          "description": "窓サッシ掃除に使いやすい窓掃除ワイパーです。",
-          "url": "https://a.r10.to/hPJyVM",
-          "type": "rakuten"
+          "label": "マイクロファイバークロスを見る",
+          "description": "シンクや窓、家電まわりを拭く時に使いやすいクロスです。",
+          "url": "https://a.r10.to/hgGdkQ",
+          "type": "product"
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-07"
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "window-screen",
+      "title": "網戸掃除",
+      "category": "窓まわり",
+      "summary": "網戸のほこりを整え、風を通しやすくするため。",
+      "recommendedFrequency": "季節ごと",
+      "estimatedMinutes": 15,
+      "steps": [
+        "網戸の表面のほこりを払う",
+        "固くしぼった布で両面を拭く",
+        "汚れが強い場所をやさしく洗う",
+        "乾かす"
+      ],
+      "tips": [
+        "強く押すと網がたわむことがあります。",
+        "外せない網戸は付けたまま見える範囲で大丈夫です。"
+      ],
+      "products": [
+        {
+          "label": "マイクロファイバークロスを見る",
+          "description": "シンクや窓、家電まわりを拭く時に使いやすいクロスです。",
+          "url": "https://a.r10.to/hgGdkQ",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "window-glass",
+      "title": "窓ガラス掃除",
+      "category": "窓まわり",
+      "summary": "手あかや雨あとを整え、部屋を明るく感じやすくするため。",
+      "recommendedFrequency": "季節ごと",
+      "estimatedMinutes": 20,
+      "steps": [
+        "窓のほこりを軽く取る",
+        "水拭きまたは窓用クリーナーで拭く",
+        "ワイパーで水を切る",
+        "乾いた布で仕上げる"
+      ],
+      "tips": [
+        "直射日光が強い時間は拭き跡が残りやすいです。",
+        "高い窓は無理に作業しないでください。"
+      ],
+      "products": [
+        {
+          "label": "窓掃除ワイパーを見る",
+          "description": "窓ガラスの水切りや拭き上げをしやすいワイパーです。",
+          "url": "https://a.r10.to/hPJyVM",
+          "type": "product"
+        },
+        {
+          "label": "マイクロファイバークロスを見る",
+          "description": "シンクや窓、家電まわりを拭く時に使いやすいクロスです。",
+          "url": "https://a.r10.to/hgGdkQ",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
     },
     {
       "id": "condensation",
       "title": "結露チェック",
-      "category": "other",
-      "summary": "カビや建具の傷みを防ぐため。",
-      "recommendedFrequency": "週1回",
+      "category": "窓まわり",
+      "summary": "窓まわりの水分を整え、カビや傷みに気づきやすくするため。",
+      "recommendedFrequency": "冬の朝",
       "estimatedMinutes": 5,
       "steps": [
-        "窓まわりの水滴を見る",
-        "浴室スクイージーで水分を切る",
-        "必要に応じて結露吸水テープや窓用断熱シートを検討する",
-        "換気や除湿をする"
+        "窓ガラスとサッシの水滴を見る",
+        "水滴を拭き取る",
+        "カーテンや壁に湿りがないか確認する",
+        "必要なら換気する"
       ],
       "tips": [
-        "カビが広がっている場合は無理にこすらず換気してください。"
+        "結露が多い場所は吸水テープや断熱シートも検討できます。",
+        "カビが出ている場合は早めに拭き取りましょう。"
       ],
       "products": [
         {
-          "label": "浴室スクイージーを見る",
-          "description": "結露チェックに使いやすい浴室スクイージーです。",
-          "url": "https://a.r10.to/hgGSq5",
-          "type": "rakuten"
-        },
-        {
           "label": "結露吸水テープを見る",
-          "description": "結露チェックに使いやすい結露吸水テープです。",
+          "description": "窓まわりの結露が気になる時の補助アイテムです。",
           "url": "https://a.r10.to/hgmrXR",
-          "type": "rakuten"
+          "type": "product"
         },
         {
           "label": "窓用断熱シートを見る",
-          "description": "結露チェックに使いやすい窓用断熱シートです。",
+          "description": "寒い時期の結露や冷気対策として検討しやすいアイテムです。",
           "url": "https://a.r10.to/h5yYY5",
-          "type": "rakuten"
+          "type": "product"
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-07"
+      "updatedAt": "2026-05-08"
     },
     {
-      "id": "air_supply_filter",
+      "id": "air-supply-filter",
       "title": "給気口フィルター掃除",
-      "category": "other",
-      "summary": "外気の汚れを抑え、換気効率を保つため。",
+      "category": "換気",
+      "summary": "給気口のほこりを整え、外気を取り込みやすい状態にするため。",
       "recommendedFrequency": "月1回",
       "estimatedMinutes": 10,
       "steps": [
-        "踏み台・脚立を安定した場所に置く",
-        "カバーを外す",
-        "フィルター掃除ブラシでほこりを取る",
-        "汚れが強ければ給気口フィルターを交換する"
+        "給気口の位置を確認する",
+        "カバーを外せる範囲で外す",
+        "フィルターのほこりを取る",
+        "汚れが強い場合は交換を検討する"
       ],
       "tips": [
-        "共用設備に関わる場合は管理会社へ確認してください。"
+        "外し方がわからない場合は表面だけで大丈夫です。",
+        "無理に分解しないでください。"
       ],
       "products": [
         {
           "label": "フィルター掃除ブラシを見る",
-          "description": "給気口フィルター掃除に使いやすいフィルター掃除ブラシです。",
+          "description": "フィルターや細かいすき間のほこりをやさしく落としやすいブラシです。",
           "url": "https://a.r10.to/hYNB7R",
-          "type": "rakuten"
+          "type": "product"
         },
         {
           "label": "給気口フィルターを見る",
-          "description": "給気口フィルター掃除に使いやすい給気口フィルターです。",
+          "description": "給気口のほこり対策に使いやすい交換フィルターです。",
           "url": "https://a.r10.to/hFyZ3n",
-          "type": "rakuten"
+          "type": "product"
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-07"
+      "updatedAt": "2026-05-08"
     },
     {
-      "id": "move_out_check",
+      "id": "move-out-check",
       "title": "退去前チェック",
-      "category": "rental",
-      "summary": "退去時のトラブルや修繕費の不安を減らすため。",
-      "recommendedFrequency": "年1回",
+      "category": "賃貸",
+      "summary": "退去前に小さな傷や汚れを確認し、慌てず整えるため。",
+      "recommendedFrequency": "退去前",
       "estimatedMinutes": 30,
       "steps": [
-        "壁や床の傷を確認する",
-        "軽い傷なら壁紙補修キットや床キズ補修キットで対応できるか確認する",
-        "設備の不具合を記録する",
-        "備品を確認する",
-        "写真に残す"
+        "部屋ごとに壁・床・設備を確認する",
+        "気になる場所を写真に残す",
+        "自分で直せる小さな汚れを整える",
+        "契約書や管理会社の案内を確認する"
       ],
       "tips": [
-        "原状回復の判断に迷う場合は管理会社に確認してください。"
+        "無理な補修はせず、判断に迷う場合は管理会社に確認してください。",
+        "あとから追加・削除できるメモとして使ってください。"
       ],
       "products": [
         {
           "label": "壁紙補修キットを見る",
-          "description": "退去前チェックに使いやすい壁紙補修キットです。",
+          "description": "退去前に小さなめくれや傷を確認する時の補助アイテムです。",
           "url": "https://a.r10.to/hP94XU",
-          "type": "rakuten"
+          "type": "product"
         },
         {
           "label": "床キズ補修キットを見る",
-          "description": "退去前チェックに使いやすい床キズ補修キットです。",
+          "description": "床の小さな傷を確認する時の補助アイテムです。",
           "url": "https://a.r10.to/hPP16T",
-          "type": "rakuten"
+          "type": "product"
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-07"
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "water-heater-check",
+      "title": "給湯器まわり確認",
+      "category": "設備",
+      "summary": "給湯器まわりの異音・におい・障害物に気づきやすくするため。",
+      "recommendedFrequency": "季節ごと",
+      "estimatedMinutes": 5,
+      "steps": [
+        "給湯器まわりに物が置かれていないか見る",
+        "排気口をふさいでいないか確認する",
+        "異音や異臭がないか確認する",
+        "気になる場合は使用を止めて相談する"
+      ],
+      "tips": [
+        "分解やカバー開けはしないでください。",
+        "ガス臭い時は換気して、ガス会社や管理会社に相談してください。"
+      ],
+      "products": [],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "smoke-alarm-test",
+      "title": "火災報知器動作確認",
+      "category": "設備",
+      "summary": "電池切れや故障に気づきやすくし、いざという時に備えるため。",
+      "recommendedFrequency": "半年に1回",
+      "estimatedMinutes": 5,
+      "steps": [
+        "本体の場所を確認する",
+        "テストボタンやひもで動作確認する",
+        "音が鳴るか確認する",
+        "電池切れ表示があれば交換や相談をする"
+      ],
+      "tips": [
+        "音が鳴るため、周囲に一声かけてから試すと安心です。",
+        "高い位置の作業は無理しないでください。"
+      ],
+      "products": [],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "washstand-drain",
+      "title": "洗面台排水口しっかり掃除",
+      "category": "洗面台",
+      "summary": "髪の毛やぬめりを整え、洗面台を気持ちよく使いやすくするため。",
+      "recommendedFrequency": "週1回",
+      "estimatedMinutes": 10,
+      "steps": [
+        "排水口のフタやヘアキャッチャーを外す",
+        "髪の毛や大きな汚れを取る",
+        "排水口ブラシでぬめりを落とす",
+        "水で流して戻す"
+      ],
+      "tips": [
+        "小さな部品を流さないように注意してください。",
+        "においが残る場合は排水管クリーナーも検討してください。"
+      ],
+      "products": [
+        {
+          "label": "排水口ブラシを見る",
+          "description": "排水口のすみや細い部分のぬめりを落としやすいブラシです。",
+          "url": "https://a.r10.to/hgfGMJ",
+          "type": "product"
+        },
+        {
+          "label": "掃除用ゴム手袋を見る",
+          "description": "排水口や油汚れの掃除をする時に手を守りやすい手袋です。",
+          "url": "https://a.r10.to/hkLq7V",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "washstand-pipe-cleaner",
+      "title": "洗面台排水管クリーナー",
+      "category": "洗面台",
+      "summary": "洗面台排水管のぬめりやにおいを整えやすくするため。",
+      "recommendedFrequency": "月1回",
+      "estimatedMinutes": 10,
+      "steps": [
+        "排水口のゴミを取る",
+        "換気する",
+        "パイプクリーナーを説明どおりに使う",
+        "指定時間後に水で流す"
+      ],
+      "tips": [
+        "洗剤を混ぜないでください。",
+        "流れが悪い状態が続く場合は専門業者に相談してください。"
+      ],
+      "products": [
+        {
+          "label": "パイプクリーナーを見る",
+          "description": "排水管のぬめりやにおいが気になる時に使いやすいクリーナーです。",
+          "url": "https://a.r10.to/hgJhJO",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "washstand-leak-check",
+      "title": "洗面台下収納・水漏れ確認",
+      "category": "洗面台",
+      "summary": "収納内の湿りや水漏れに早めに気づきやすくするため。",
+      "recommendedFrequency": "月1回",
+      "estimatedMinutes": 5,
+      "steps": [
+        "洗面台下の収納物を少しどける",
+        "床や配管まわりの湿りを見る",
+        "においやカビっぽさを確認する",
+        "気になる場合は写真に残して相談する"
+      ],
+      "tips": [
+        "収納物を詰め込みすぎないと確認しやすいです。",
+        "水漏れがある場合は止水栓を確認し、無理せず相談してください。"
+      ],
+      "products": [],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "toilet-vent",
+      "title": "トイレ換気扇掃除",
+      "category": "トイレ",
+      "summary": "換気扇のほこりを整え、においがこもりにくい状態にするため。",
+      "recommendedFrequency": "月1回",
+      "estimatedMinutes": 10,
+      "steps": [
+        "電源を切る",
+        "カバー表面のほこりを取る",
+        "外せるカバーだけ外して拭く",
+        "乾いた状態で戻す"
+      ],
+      "tips": [
+        "高い位置の作業は無理しないでください。",
+        "内部の分解はしないでください。"
+      ],
+      "products": [
+        {
+          "label": "フィルター掃除ブラシを見る",
+          "description": "フィルターや細かいすき間のほこりをやさしく落としやすいブラシです。",
+          "url": "https://a.r10.to/hYNB7R",
+          "type": "product"
+        },
+        {
+          "label": "マイクロファイバークロスを見る",
+          "description": "シンクや窓、家電まわりを拭く時に使いやすいクロスです。",
+          "url": "https://a.r10.to/hgGdkQ",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "toilet-nozzle",
+      "title": "温水洗浄ノズル掃除",
+      "category": "トイレ",
+      "summary": "ノズルまわりの汚れを整え、気持ちよく使いやすくするため。",
+      "recommendedFrequency": "月1回",
+      "estimatedMinutes": 10,
+      "steps": [
+        "ノズル掃除モードを確認する",
+        "ノズルを出す",
+        "柔らかい布でやさしく拭く",
+        "水気を拭き取り戻す"
+      ],
+      "tips": [
+        "強く引っ張らないでください。",
+        "操作方法は機種ごとの説明書を確認してください。"
+      ],
+      "products": [
+        {
+          "label": "マイクロファイバークロスを見る",
+          "description": "シンクや窓、家電まわりを拭く時に使いやすいクロスです。",
+          "url": "https://a.r10.to/hgGdkQ",
+          "type": "product"
+        }
+      ],
+      "services": [],
+      "updatedAt": "2026-05-08"
+    },
+    {
+      "id": "toilet-tank-valve-check",
+      "title": "トイレタンク・止水栓確認",
+      "category": "トイレ",
+      "summary": "水の流れや止水栓の位置を確認し、トラブル時に慌てにくくするため。",
+      "recommendedFrequency": "半年に1回",
+      "estimatedMinutes": 5,
+      "steps": [
+        "止水栓の場所を確認する",
+        "タンクまわりに水漏れがないか見る",
+        "水が流れ続けていないか確認する",
+        "気になる音や水漏れがあれば相談する"
+      ],
+      "tips": [
+        "無理に止水栓を回さないでください。",
+        "タンク内部の部品を触る場合は説明書を確認してください。"
+      ],
+      "products": [],
+      "services": [],
+      "updatedAt": "2026-05-08"
     }
   ]
 }
