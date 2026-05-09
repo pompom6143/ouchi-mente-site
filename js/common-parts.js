@@ -31,7 +31,7 @@
   const headerHtml = () => `
     <header class="site-header">
       <div class="site-container header-inner">
-        <a href="${url("index.html")}" class="logo-group">
+        <a href="${url("")}" class="logo-group">
           <img src="${url("images/app-icon.png")}" alt="おうちメンテ ロゴ" />
           <span class="site-title">おうちメンテ</span>
         </a>
@@ -42,10 +42,10 @@
         </button>
         <nav class="site-nav" id="site-nav" aria-label="サイト内メニュー">
           <ul>
-            <li><a href="${url("index.html")}">ホーム</a></li>
-            <li><a href="${url("maintenance/index.html")}">カテゴリ</a></li>
-            <li><a href="${url("features/index.html")}">特集</a></li>
-            <li><a href="${url("app/index.html")}">アプリ紹介</a></li>
+            <li><a href="${url("")}">ホーム</a></li>
+            <li><a href="${url("maintenance/")}">カテゴリ</a></li>
+            <li><a href="${url("features/")}">特集</a></li>
+            <li><a href="${url("app/")}">アプリ紹介</a></li>
           </ul>
           <form class="header-search" action="${url("search/")}" role="search">
             <label class="sr-only" for="header-search-input">サイト内検索</label>
@@ -78,7 +78,7 @@
           </div>
         </div>
         <div class="actions app-promo-actions">
-          <a class="btn btn-secondary" href="${url("app/index.html")}">アプリ紹介を見る</a>
+          <a class="btn btn-secondary" href="${url("app/")}">アプリ紹介を見る</a>
           <a class="btn btn-secondary" href="${appStoreUrl}" target="_blank" rel="noopener">App Storeで見る</a>
         </div>
       </div>
@@ -100,10 +100,10 @@
         </div>
         <p>家のメンテナンスを、わかりやすく整理する暮らしメディア。</p>
         <ul class="footer-links">
-          <li><a href="${url("maintenance/index.html")}">カテゴリ一覧</a></li>
-          <li><a href="${url("features/index.html")}">特集</a></li>
-          <li><a href="${url("search/index.html")}">検索</a></li>
-          <li><a href="${url("app/index.html")}">アプリ</a></li>
+          <li><a href="${url("maintenance/")}">カテゴリ一覧</a></li>
+          <li><a href="${url("features/")}">特集</a></li>
+          <li><a href="${url("search/")}">検索</a></li>
+          <li><a href="${url("app/")}">アプリ</a></li>
           <li><a href="${url("privacy-policy/")}">プライバシーポリシー</a></li>
           <li><a href="${url("disclaimer/")}">免責事項</a></li>
           <li><a href="${url("affiliate-disclosure/")}">アフィリエイト開示</a></li>

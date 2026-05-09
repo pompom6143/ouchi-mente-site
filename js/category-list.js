@@ -2,23 +2,23 @@ const categoryDataCache = new Map();
 const categoryScript = document.currentScript;
 
 const categoryPageMap = {
-  "エアコン": "aircon/index.html",
-  "入居時準備": "movein/index.html",
-  "お風呂": "bathroom/index.html",
-  "浴室": "bath/index.html",
-  "キッチン": "kitchen/index.html",
-  "洗面台": "washstand/index.html",
-  "洗濯機": "washer/index.html",
-  "トイレ": "toilet/index.html",
-  "空気清浄機": "airpurifier/index.html",
-  "加湿器": "humidifier/index.html",
-  "換気": "ventilation/index.html",
-  "外まわり": "exterior/index.html",
-  "ベランダ": "balcony/index.html",
-  "窓まわり": "window/index.html",
-  "賃貸": "rental/index.html",
-  "設備": "equipment/index.html",
-  "その他": "other/index.html"
+  "エアコン": "aircon/",
+  "入居時準備": "movein/",
+  "お風呂": "bathroom/",
+  "浴室": "bath/",
+  "キッチン": "kitchen/",
+  "洗面台": "washstand/",
+  "洗濯機": "washer/",
+  "トイレ": "toilet/",
+  "空気清浄機": "airpurifier/",
+  "加湿器": "humidifier/",
+  "換気": "ventilation/",
+  "外まわり": "exterior/",
+  "ベランダ": "balcony/",
+  "窓まわり": "window/",
+  "賃貸": "rental/",
+  "設備": "equipment/",
+  "その他": "other/"
 };
 
 const categoryIntroMap = {
