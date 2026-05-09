@@ -258,11 +258,15 @@
       "levelLabel": "外まわり",
       "difficulty": "かんたん",
       "diyScope": "見える範囲だけ対応",
-      "articlePath": "",
+      "articlePath": "/articles/aircon-outdoor-cleaning.html",
       "targetKeywords": [
         "エアコン 室外機 掃除",
-        "室外機 まわり 掃除"
-      ]
+        "室外機 まわり 掃除",
+        "エアコン 室外機 外装 掃除",
+        "室外機 掃除 自分で"
+      ],
+      "seoTitle": "エアコン室外機まわり・外装掃除は何をする？家庭でできる確認範囲",
+      "seoDescription": "エアコン室外機まわりの落ち葉やほこり、吸排気を妨げる物の確認方法を解説。内部は分解・水洗いせず、見える範囲だけ整えます。"
     },
     {
       "id": "aircon-cleaning",

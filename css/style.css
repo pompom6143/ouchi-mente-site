@@ -52,6 +52,10 @@ a {
   text-decoration: none;
 }
 
+a.card-clickable {
+  color: inherit;
+}
+
 p {
   margin: 0;
 }
@@ -457,6 +461,31 @@ nav a:focus-visible {
 .level-card {
   grid-template-columns: auto 1fr;
   align-items: start;
+}
+
+.card-clickable.article-card,
+.card-clickable.related-card,
+.card-clickable.level-card {
+  position: relative;
+  padding-right: 54px;
+}
+
+.card-clickable.article-card::after,
+.card-clickable.related-card::after,
+.card-clickable.level-card::after {
+  content: ">";
+  position: absolute;
+  top: 50%;
+  right: 22px;
+  color: var(--color-primary-dark);
+  font-size: 1.35rem;
+  font-weight: 900;
+  line-height: 1;
+  transform: translateY(-50%);
+}
+
+.card-clickable .card-link {
+  pointer-events: none;
 }
 
 .level-number {
