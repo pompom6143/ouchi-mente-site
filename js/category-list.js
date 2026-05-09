@@ -42,8 +42,8 @@ const categoryIntroMap = {
 };
 
 const categoryOrder = [
-  "エアコン",
   "入居時準備",
+  "エアコン",
   "お風呂",
   "浴室",
   "キッチン",
