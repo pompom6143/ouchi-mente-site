@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>サイト内検索 | おうちメンテ</title>
+  <meta name="description" content="おうちメンテ内のカテゴリ、メンテナンス記事、特集記事をキーワードで探せます。" />
+  <link rel="canonical" href="https://ouchi-mente.jp/search/" />
+  <meta property="og:title" content="サイト内検索 | おうちメンテ" />
+  <meta property="og:description" content="おうちメンテ内のカテゴリ、メンテナンス記事、特集記事をキーワードで探せます。" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <script defer src="../js/common-parts.js"></script>
+  <script defer src="../js/search.js" data-tasks-src="../data/maintenance-tasks.json" data-features-src="../data/features.json"></script>
+</head>
+<body>
+<div data-common-header></div>
+
+<main class="page-shell">
+  <nav class="breadcrumb"><a href="../index.html">ホーム</a> / <span>サイト内検索</span></nav>
+  <header class="page-header">
+    <span class="eyebrow">検索</span>
+    <h1 class="page-title">サイト内検索</h1>
+    <p class="lead-text">カテゴリ、メンテナンス詳細、特集記事をキーワードで探せます。</p>
+    <form class="search-page-form" data-search-page-form role="search">
+      <label class="sr-only" for="search-page-input">検索キーワード</label>
+      <input id="search-page-input" data-search-page-input type="search" placeholder="エアコン、カビ、入居準備など" autocomplete="off" />
+      <button class="btn" type="submit">検索する</button>
+    </form>
+  </header>
+
+  <section class="section">
+    <p class="section-desc" data-search-summary>検索データを読み込んでいます。</p>
+    <div data-search-results>
+      <p class="muted-text">検索結果を準備しています。</p>
+    </div>
+  </section>
+</main>
+
+<div data-common-footer></div>
+</body>
+</html>

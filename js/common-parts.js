@@ -42,10 +42,21 @@
         </button>
         <nav class="site-nav" id="site-nav" aria-label="サイト内メニュー">
           <ul>
-            <li><a href="${url("maintenance/index.html")}">カテゴリ一覧</a></li>
-            <li><a href="${url("articles/index.html")}">記事一覧</a></li>
-            <li><a href="${url("app/index.html")}">おうちメンテアプリ紹介</a></li>
+            <li><a href="${url("index.html")}">ホーム</a></li>
+            <li><a href="${url("maintenance/index.html")}">カテゴリ</a></li>
+            <li><a href="${url("features/index.html")}">特集</a></li>
+            <li><a href="${url("app/index.html")}">アプリ紹介</a></li>
           </ul>
+          <form class="header-search" action="${url("search/")}" role="search">
+            <label class="sr-only" for="header-search-input">サイト内検索</label>
+            <input id="header-search-input" name="q" type="search" placeholder="キーワードで探す" autocomplete="off" />
+            <button type="submit" aria-label="検索する">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <circle cx="11" cy="11" r="6"></circle>
+                <path d="m16 16 4 4"></path>
+              </svg>
+            </button>
+          </form>
         </nav>
       </div>
     </header>
@@ -90,7 +101,8 @@
         <p>家のメンテナンスを、わかりやすく整理する暮らしメディア。</p>
         <ul class="footer-links">
           <li><a href="${url("maintenance/index.html")}">カテゴリ一覧</a></li>
-          <li><a href="${url("articles/index.html")}">記事一覧</a></li>
+          <li><a href="${url("features/index.html")}">特集</a></li>
+          <li><a href="${url("search/index.html")}">検索</a></li>
           <li><a href="${url("app/index.html")}">アプリ</a></li>
           <li><a href="${url("privacy-policy/")}">プライバシーポリシー</a></li>
           <li><a href="${url("disclaimer/")}">免責事項</a></li>
@@ -144,8 +156,21 @@
     });
   };
 
+  const initHeaderSearch = () => {
+    document.querySelectorAll(".header-search").forEach((form) => {
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const input = form.querySelector('input[name="q"]');
+        const query = input?.value.trim() || "";
+        const action = form.getAttribute("action") || url("search/");
+        window.location.href = query ? `${action}?q=${encodeURIComponent(query)}` : action;
+      });
+    });
+  };
+
   document.addEventListener("DOMContentLoaded", () => {
     renderCommonParts();
     initNavigation();
+    initHeaderSearch();
   });
 })();

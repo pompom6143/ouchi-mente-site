@@ -1,0 +1,59 @@
+{
+  "features": [
+    {
+      "slug": "move-in-maintenance",
+      "title": "入居前にやると後悔しにくい家メンテ準備",
+      "description": "入居後だと動かしにくい家具・家電まわりや、最初に済ませたい防カビ・防虫・記録をまとめます。",
+      "summary": "冷蔵庫下マット、洗濯機かさ上げ台、防カビ燻煙、コンロ隙間カバー、防虫キャップ、賃貸の傷写真記録など、入居前に済ませたい準備を整理します。",
+      "category": "入居時準備",
+      "tags": ["入居準備", "引っ越し", "賃貸", "防カビ"],
+      "targetKeywords": ["入居前 やること", "引っ越し前 家 メンテナンス", "入居準備 掃除 防カビ"],
+      "readTime": "約5分",
+      "url": "/features/move-in-maintenance.html"
+    },
+    {
+      "slug": "rainy-season-mold",
+      "title": "梅雨前にやっておきたいカビ対策メンテナンス",
+      "description": "浴室、エアコン、洗濯槽など、湿気の季節前に見直したいカビ予防のメンテナンスをまとめます。",
+      "summary": "カビが出てから落とすより、出る前に予防するための浴室・エアコン・洗濯機まわりの確認ポイントです。",
+      "category": "季節のメンテナンス",
+      "tags": ["梅雨", "カビ", "浴室", "エアコン"],
+      "targetKeywords": ["梅雨 カビ対策", "梅雨前 掃除", "浴室 カビ対策", "エアコン カビ対策"],
+      "readTime": "約5分",
+      "url": "/features/rainy-season-mold.html"
+    },
+    {
+      "slug": "minimum-maintenance-for-busy-home",
+      "title": "共働き家庭が最低限やっておきたい家メンテ",
+      "description": "忙しい家庭でも続けやすい、排水口・トイレ・エアコン・洗濯槽の最低限メンテナンスを整理します。",
+      "summary": "全部を完璧にやるのではなく、重要な5タスクを忘れずに続けるための考え方です。",
+      "category": "暮らし方",
+      "tags": ["共働き", "最低限", "掃除", "アプリ"],
+      "targetKeywords": ["共働き 掃除 最低限", "家 メンテナンス 最低限", "掃除 忘れない アプリ"],
+      "readTime": "約4分",
+      "url": "/features/minimum-maintenance-for-busy-home.html"
+    },
+    {
+      "slug": "family-mold-dust-care",
+      "title": "子育て家庭で気をつけたいカビ・ホコリ対策",
+      "description": "小さな子どもがいる家庭で見直したい、エアコン・浴室・洗濯槽・空気清浄機・加湿器のメンテナンスをまとめます。",
+      "summary": "不安を煽りすぎず、カビやホコリをためにくくする現実的な頻度管理を考えます。",
+      "category": "子育て家庭",
+      "tags": ["子育て", "カビ", "ホコリ", "空気"],
+      "targetKeywords": ["子育て家庭 カビ対策", "赤ちゃん 家 掃除", "子ども ホコリ カビ 対策"],
+      "readTime": "約5分",
+      "url": "/features/family-mold-dust-care.html"
+    },
+    {
+      "slug": "autumn-maintenance-before-year-end",
+      "title": "年末の大掃除をラクにするために、秋から始めたい家メンテ",
+      "description": "年末に一気に掃除を抱え込まないために、秋から分散したい窓・換気扇・浴室・ベランダまわりのメンテナンスをまとめます。",
+      "summary": "大掃除をなくすのではなく、大掃除を軽くするための秋からの分散メンテナンスです。",
+      "category": "季節のメンテナンス",
+      "tags": ["年末", "大掃除", "秋", "分散掃除"],
+      "targetKeywords": ["年末 大掃除 ラク", "大掃除 前にやること", "秋 家 メンテナンス"],
+      "readTime": "約5分",
+      "url": "/features/autumn-maintenance-before-year-end.html"
+    }
+  ]
+}
