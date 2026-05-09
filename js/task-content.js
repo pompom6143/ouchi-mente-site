@@ -61,10 +61,10 @@ const renderRecommendations = (task) => {
   const entries = [
     ...(task.products || []).map((item) => ({ ...item, type: item.type || "product" })),
     ...(task.services || []).map((item) => ({ ...item, type: item.type || "service" }))
-  ].filter((item) => item.label || item.description);
+  ].filter((item) => item.url && (item.label || item.description));
 
   if (!entries.length) {
-    return '<p class="muted-text">このメンテナンスは、まず家にある道具で見える範囲から始められます。</p>';
+    return "";
   }
 
   return entries
@@ -74,23 +74,17 @@ const renderRecommendations = (task) => {
         .replace(/を確認する$/, "")
         .replace(/を見る$/, "")
         .replace(/見る$/, "");
-      const destinationText = entry.url
-        ? entry.url.includes("a.r10.to")
-          ? "楽天市場で見る"
-          : entry.type === "service"
-            ? "サービスサイトを見る"
-            : "詳細を見る"
-        : "リンク準備中";
+      const destinationText = entry.url.includes("a.r10.to")
+        ? "楽天市場で見る"
+        : entry.type === "service"
+          ? "サービスサイトを見る"
+          : "詳細を見る";
       const body = `
         <div class="affiliate-card__type">${typeText}</div>
         <div class="affiliate-card__label">${escapeHtml(displayLabel)}</div>
         <p class="affiliate-card__description">${escapeHtml(entry.description)}</p>
         <div class="affiliate-card__destination">${escapeHtml(destinationText)}</div>
       `;
-
-      if (!entry.url) {
-        return `<div class="affiliate-card__inner"><div class="affiliate-card__body">${body}</div></div>`;
-      }
 
       return `
         <div class="affiliate-card__inner">
@@ -180,7 +174,13 @@ document.addEventListener("DOMContentLoaded", async () => {
         node.innerHTML = renderList(task.tips);
       });
       root.querySelectorAll("[data-task-tools]").forEach((node) => {
-        node.innerHTML = renderRecommendations(task);
+        const html = renderRecommendations(task);
+        const section = node.closest("section");
+        if (!html && section) {
+          section.hidden = true;
+          return;
+        }
+        node.innerHTML = html;
       });
     });
   } catch (error) {
