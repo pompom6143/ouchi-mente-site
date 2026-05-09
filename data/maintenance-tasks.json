@@ -1686,7 +1686,7 @@
     {
       "id": "movein-sink-coating",
       "title": "シンク撥水コーティング",
-      "category": "キッチン",
+      "category": "入居時準備",
       "summary": "入居直後のきれいな状態で行うと、水垢や汚れを予防しやすく、日々の掃除負担を軽くできます。",
       "recommendedFrequency": "入居時だけ",
       "estimatedMinutes": 15,
@@ -1720,7 +1720,7 @@
     {
       "id": "movein-stove-gap-cover",
       "title": "コンロ隙間カバー設置",
-      "category": "キッチン",
+      "category": "入居時準備",
       "summary": "後から掃除しにくいコンロ横・奥の隙間に、食材カスや油汚れが入り込むのを防ぎやすくします。",
       "recommendedFrequency": "入居時だけ",
       "estimatedMinutes": 10,
@@ -1753,7 +1753,7 @@
     {
       "id": "movein-fridge-mat",
       "title": "冷蔵庫下マット設置",
-      "category": "キッチン",
+      "category": "入居時準備",
       "summary": "冷蔵庫設置後は敷き直しが大変なため、搬入前または設置時に床の傷・凹み・水漏れ跡を予防しやすくします。",
       "recommendedFrequency": "入居時だけ",
       "estimatedMinutes": 10,
@@ -1786,7 +1786,7 @@
     {
       "id": "movein-anti-mold",
       "title": "初回防カビ燻煙",
-      "category": "浴室",
+      "category": "入居時準備",
       "summary": "カビが生える前の入居直後に浴室全体を予防し、きれいな状態を保ちやすくします。",
       "recommendedFrequency": "入居時だけ",
       "estimatedMinutes": 15,
@@ -1820,7 +1820,7 @@
     {
       "id": "movein-mirror-faucet-coating",
       "title": "鏡・水栓コーティング",
-      "category": "浴室",
+      "category": "入居時準備",
       "summary": "鏡や水栓まわりの水垢、ウロコ汚れ、曇りを軽減し、掃除負担を増やしにくくします。",
       "recommendedFrequency": "入居時だけ",
       "estimatedMinutes": 15,
@@ -1855,7 +1855,7 @@
     {
       "id": "movein-washer-base",
       "title": "洗濯機かさ上げ台設置",
-      "category": "洗濯機",
+      "category": "入居時準備",
       "summary": "洗濯機設置後は動かすのが大変なため、搬入前または設置時に排水口まわりの掃除しやすさ、水漏れ確認、湿気・ホコリ対策を整えやすくします。",
       "recommendedFrequency": "入居時だけ",
       "estimatedMinutes": 15,
@@ -1888,7 +1888,7 @@
     {
       "id": "movein-aircon-drain-cap",
       "title": "エアコン排水ホース防虫キャップ取り付け",
-      "category": "エアコン",
+      "category": "入居時準備",
       "summary": "エアコンの排水ホースから虫が入り込む可能性を減らしやすくします。",
       "recommendedFrequency": "入居時だけ",
       "estimatedMinutes": 10,
@@ -1922,7 +1922,7 @@
     {
       "id": "movein-rental-photo",
       "title": "入居時の傷・汚れを写真に残す",
-      "category": "賃貸",
+      "category": "入居時準備",
       "summary": "退去時の原状回復トラブルを避けるため、入居直後の状態を写真で記録しておくと安心です。",
       "recommendedFrequency": "入居時だけ",
       "estimatedMinutes": 20,

@@ -3,6 +3,7 @@ const categoryScript = document.currentScript;
 
 const categoryPageMap = {
   "エアコン": "aircon/index.html",
+  "入居時準備": "movein/index.html",
   "お風呂": "bathroom/index.html",
   "浴室": "bath/index.html",
   "キッチン": "kitchen/index.html",
@@ -22,6 +23,7 @@ const categoryPageMap = {
 
 const categoryIntroMap = {
   "エアコン": "フィルター掃除、吹き出し口、室外機まわり、内部クリーニングの考え方を整理します。",
+  "入居時準備": "入居直後にやっておくと、あとからの掃除や管理が少し軽くなる予防メンテナンスをまとめます。",
   "お風呂": "排水口、換気扇、防カビ、水垢など、湿気が多い場所のメンテナンスをまとめます。",
   "浴室": "入居時や日常の浴室まわりで、きれいな状態を保ちやすくする作業をまとめます。",
   "キッチン": "排水口、シンク、レンジフード、食洗機など、汚れがたまりやすい場所を整理します。",
@@ -41,6 +43,7 @@ const categoryIntroMap = {
 
 const categoryOrder = [
   "エアコン",
+  "入居時準備",
   "お風呂",
   "浴室",
   "キッチン",
