@@ -70,10 +70,22 @@ const renderRecommendations = (task) => {
   return entries
     .map((entry) => {
       const typeText = entry.type === "service" ? "業者依頼" : "商品";
+      const displayLabel = String(entry.label || "")
+        .replace(/を確認する$/, "")
+        .replace(/を見る$/, "")
+        .replace(/見る$/, "");
+      const destinationText = entry.url
+        ? entry.url.includes("a.r10.to")
+          ? "楽天市場で見る"
+          : entry.type === "service"
+            ? "サービスサイトを見る"
+            : "詳細を見る"
+        : "リンク準備中";
       const body = `
-        <div class="affiliate-card__label">${escapeHtml(entry.label)}</div>
         <div class="affiliate-card__type">${typeText}</div>
+        <div class="affiliate-card__label">${escapeHtml(displayLabel)}</div>
         <p class="affiliate-card__description">${escapeHtml(entry.description)}</p>
+        <div class="affiliate-card__destination">${escapeHtml(destinationText)}</div>
       `;
 
       if (!entry.url) {
