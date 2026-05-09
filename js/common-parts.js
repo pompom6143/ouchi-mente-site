@@ -87,9 +87,13 @@
           <li><a href="${url("maintenance/index.html")}">カテゴリ一覧</a></li>
           <li><a href="${url("articles/index.html")}">記事一覧</a></li>
           <li><a href="${url("app/index.html")}">アプリ</a></li>
-          <li><a href="${url("privacy.html")}">プライバシーポリシー</a></li>
-          <li><a href="${url("contact.html")}">お問い合わせ</a></li>
+          <li><a href="${url("privacy-policy/")}">プライバシーポリシー</a></li>
+          <li><a href="${url("disclaimer/")}">免責事項</a></li>
+          <li><a href="${url("affiliate-disclosure/")}">アフィリエイト開示</a></li>
+          <li><a href="${url("about/")}">運営者情報</a></li>
+          <li><a href="${url("contact/")}">お問い合わせ</a></li>
         </ul>
+        <p class="footer-copy">&copy; おうちメンテ / ouchi-mente.jp</p>
       </div>
     </footer>
   `;

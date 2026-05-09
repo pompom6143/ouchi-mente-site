@@ -39,6 +39,10 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
+    const disclosure = document.createElement("p");
+    disclosure.className = "affiliate-disclosure-note";
+    disclosure.textContent = "この記事にはアフィリエイトリンクが含まれます。リンク経由で購入された場合、運営者が報酬を受け取ることがあります。";
+
     const wrapper = document.createElement("div");
     wrapper.className = `affiliate-card__inner affiliate-card--${entry.type}`;
 
@@ -64,6 +68,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     content.append(title, typeTag, description);
     wrapper.appendChild(content);
-    placeholder.appendChild(wrapper);
+    placeholder.append(disclosure, wrapper);
   });
 });

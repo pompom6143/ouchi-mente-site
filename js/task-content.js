@@ -67,7 +67,9 @@ const renderRecommendations = (task) => {
     return "";
   }
 
-  return entries
+  const disclosure = '<p class="affiliate-disclosure-note">この記事にはアフィリエイトリンクが含まれます。リンク経由で購入された場合、運営者が報酬を受け取ることがあります。</p>';
+
+  return disclosure + entries
     .map((entry) => {
       const typeText = entry.type === "service" ? "業者依頼" : "商品";
       const displayLabel = String(entry.label || "")
