@@ -50,7 +50,7 @@ const renderSteps = (steps) => {
         <li class="step-card">
           <div class="step-number">${index + 1}</div>
           <h3>${escapeHtml(step)}</h3>
-          <p>機種ごとの外し方や使用可否は、説明書を確認しながら進めてください。</p>
+          <p>外し方や使える洗剤・道具は、設備や素材の説明に合わせて確認しながら進めてください。</p>
         </li>
       `
     )

@@ -84,7 +84,6 @@ const taskHref = (task, categoryPath) => {
 
 const renderTaskItem = (task, categoryPath) => {
   const href = taskHref(task, categoryPath);
-  const hasArticle = Boolean(task.articlePath);
   const isClickable = href && href !== "#";
   const tag = isClickable ? "a" : "div";
   const hrefAttr = isClickable ? ` href="${escapeCategoryHtml(href)}"` : "";
@@ -98,7 +97,7 @@ const renderTaskItem = (task, categoryPath) => {
         <div><dt>頻度</dt><dd>${escapeCategoryHtml(task.recommendedFrequency)}</dd></div>
         <div><dt>目安</dt><dd>${escapeCategoryHtml(task.estimatedMinutes)}分</dd></div>
       </dl>
-      <span class="meta">${hasArticle ? "詳細記事あり" : categoryPath ? "カテゴリページへ" : "詳細準備中"}</span>
+      <span class="meta">${isClickable ? "詳しく読む" : "準備中"}</span>
     </${tag}>
   `;
 };

@@ -1,0 +1,142 @@
+(() => {
+  const currentScript = document.currentScript || document.querySelector('script[src$="common-parts.js"]');
+  const siteRoot = currentScript ? new URL("../", currentScript.src) : new URL("./", window.location.href);
+  const appStoreUrl = "https://apps.apple.com/jp/app/%E3%81%8A%E3%81%86%E3%81%A1%E3%83%A1%E3%83%B3%E3%83%86-%E6%8E%83%E9%99%A4-%E5%AE%B6%E4%BA%8B%E7%AE%A1%E7%90%86/id6742120333";
+
+  const url = (path) => new URL(path, siteRoot).href;
+
+  const ensureHeadLink = (rel, href, type) => {
+    const existing = document.head.querySelector(`link[rel="${rel}"]`);
+
+    if (existing) {
+      existing.href = href;
+      if (type) {
+        existing.type = type;
+      }
+      return;
+    }
+
+    const link = document.createElement("link");
+    link.rel = rel;
+    link.href = href;
+    if (type) {
+      link.type = type;
+    }
+    document.head.append(link);
+  };
+
+  ensureHeadLink("icon", url("images/app-icon.png"), "image/png");
+  ensureHeadLink("apple-touch-icon", url("images/app-icon.png"));
+
+  const headerHtml = () => `
+    <header class="site-header">
+      <div class="site-container header-inner">
+        <a href="${url("index.html")}" class="logo-group">
+          <img src="${url("images/app-icon.png")}" alt="おうちメンテ ロゴ" />
+          <span class="site-title">おうちメンテ</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="site-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="サイト内メニュー">
+          <ul>
+            <li><a href="${url("maintenance/index.html")}">カテゴリ一覧</a></li>
+            <li><a href="${url("articles/index.html")}">記事一覧</a></li>
+            <li><a href="${url("app/index.html")}">おうちメンテアプリ紹介</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  `;
+
+  const appPromoHtml = (wrapInContainer) => {
+    const content = `
+      <div class="media-cta">
+        <div class="app-spotlight">
+          <img src="${url("images/app-icon.png")}" alt="おうちメンテ アプリアイコン" />
+          <div>
+            <h2 class="section-title">メンテナンスを忘れず管理したい方へ</h2>
+            <p>おうちメンテアプリなら、エアコン掃除や換気扇掃除など、定期的にやることをタスクとして管理できます。</p>
+          </div>
+        </div>
+        <div class="actions">
+          <a class="btn btn-secondary" href="${url("app/index.html")}">アプリ紹介を見る</a>
+          <a class="text-link" href="${appStoreUrl}" target="_blank" rel="noopener">App Storeで見る</a>
+        </div>
+      </div>
+    `;
+
+    return `
+    <section class="section">
+      ${wrapInContainer ? `<div class="site-container section-narrow">${content}</div>` : content}
+    </section>
+  `;
+  };
+
+  const footerHtml = () => `
+    <footer class="footer">
+      <div class="site-container footer-inner">
+        <div class="logo-group">
+          <img src="${url("images/app-icon.png")}" alt="おうちメンテ ロゴ" />
+          <span class="site-title">おうちメンテ</span>
+        </div>
+        <p>家のメンテナンスを、わかりやすく整理する暮らしメディア。</p>
+        <ul class="footer-links">
+          <li><a href="${url("maintenance/index.html")}">カテゴリ一覧</a></li>
+          <li><a href="${url("articles/index.html")}">記事一覧</a></li>
+          <li><a href="${url("app/index.html")}">アプリ</a></li>
+          <li><a href="${url("privacy.html")}">プライバシーポリシー</a></li>
+          <li><a href="${url("contact.html")}">お問い合わせ</a></li>
+        </ul>
+      </div>
+    </footer>
+  `;
+
+  const renderCommonParts = () => {
+    document.querySelectorAll("[data-common-header]").forEach((target) => {
+      target.outerHTML = headerHtml();
+    });
+
+    document.querySelectorAll("[data-common-app-promo]").forEach((target) => {
+      target.outerHTML = appPromoHtml(!target.closest(".page-shell"));
+    });
+
+    document.querySelectorAll("[data-common-footer]").forEach((target) => {
+      target.outerHTML = footerHtml();
+    });
+  };
+
+  const initNavigation = () => {
+    document.querySelectorAll(".nav-toggle").forEach((toggle) => {
+      const header = toggle.closest("header");
+      const navId = toggle.getAttribute("aria-controls");
+      const nav = navId ? document.getElementById(navId) : null;
+
+      if (!header || !nav) {
+        return;
+      }
+
+      toggle.addEventListener("click", () => {
+        const isOpen = toggle.getAttribute("aria-expanded") === "true";
+        toggle.setAttribute("aria-expanded", String(!isOpen));
+        toggle.setAttribute("aria-label", isOpen ? "メニューを開く" : "メニューを閉じる");
+        header.classList.toggle("nav-open", !isOpen);
+      });
+
+      nav.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+          toggle.setAttribute("aria-expanded", "false");
+          toggle.setAttribute("aria-label", "メニューを開く");
+          header.classList.remove("nav-open");
+        });
+      });
+    });
+  };
+
+  document.addEventListener("DOMContentLoaded", () => {
+    renderCommonParts();
+    initNavigation();
+  });
+})();

@@ -5,33 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>おうちメンテ | 家のメンテナンスをわかりやすく整理する暮らしメディア</title>
   <meta name="description" content="エアコン・お風呂・排水口・換気扇など、つい後回しになりがちな家のメンテナンスを整理。掃除頻度や手順を暮らし目線で紹介します。" />
-  <link rel="icon" type="image/png" href="images/app-icon.png" />
-  <link rel="apple-touch-icon" href="images/app-icon.png" />
   <link rel="stylesheet" href="css/style.css" />
-  <script defer src="js/site-nav.js"></script>
+  <script defer src="js/common-parts.js"></script>
 </head>
 
 <body>
-<header class="site-header">
-  <div class="site-container header-inner">
-    <a href="index.html" class="logo-group">
-      <img src="images/app-icon.png" alt="おうちメンテ ロゴ" />
-      <span class="site-title">おうちメンテ</span>
-    </a>
-    <button class="nav-toggle" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="site-nav">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-    <nav class="site-nav" id="site-nav" aria-label="サイト内メニュー">
-      <ul>
-        <li><a href="maintenance/index.html">カテゴリ一覧</a></li>
-        <li><a href="articles/index.html">記事一覧</a></li>
-        <li><a href="app/index.html">おうちメンテアプリ紹介</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+<div data-common-header></div>
 
   <main>
     <section class="hero">
@@ -99,33 +78,9 @@
       </div>
     </section>
 
-    <section class="section">
-      <div class="site-container section-narrow">
-        <div class="media-cta">
-          <div class="app-spotlight">
-            <img src="images/app-icon.png" alt="おうちメンテ アプリアイコン" />
-            <div><h2 class="section-title">メンテナンスを忘れず管理したい方へ</h2><p>おうちメンテアプリなら、エアコン掃除や換気扇掃除など、定期的にやることをタスクとして管理できます。</p></div>
-          </div>
-          <div class="actions"><a class="btn btn-secondary" href="app/index.html">アプリ紹介を見る</a><a class="text-link" href="https://apps.apple.com/jp/app/%E3%81%8A%E3%81%86%E3%81%A1%E3%83%A1%E3%83%B3%E3%83%86-%E6%8E%83%E9%99%A4-%E5%AE%B6%E4%BA%8B%E7%AE%A1%E7%90%86/id6742120333" target="_blank" rel="noopener">App Storeで見る</a></div>
-        </div>
-      </div>
-    </section>
+    <div data-common-app-promo></div>
   </main>
-<footer class="footer">
-  <div class="site-container footer-inner">
-    <div class="logo-group">
-      <img src="images/app-icon.png" alt="おうちメンテ ロゴ" />
-      <span class="site-title">おうちメンテ</span>
-    </div>
-    <p>家のメンテナンスを、わかりやすく整理する暮らしメディア。</p>
-    <ul class="footer-links">
-      <li><a href="articles/index.html">記事一覧</a></li>
-      <li><a href="app/index.html">アプリ</a></li>
-      <li><a href="privacy.html">プライバシーポリシー</a></li>
-      <li><a href="contact.html">お問い合わせ</a></li>
-    </ul>
-  </div>
-</footer>
+<div data-common-footer></div>
 
 </body>
 </html>

@@ -42,7 +42,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/bath-drain.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "浴室排水溝掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "浴室排水溝掃除の頻度、所要時間、家庭でできる手順、注意点を整理。ぬめりやにおいを軽くし、浴室を気持ちよく使いやすくするため。"
     },
     {
       "id": "kitchen-drain",
@@ -84,7 +89,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/kitchen-drain.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "キッチン排水溝掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "キッチン排水溝掃除の頻度、所要時間、家庭でできる手順、注意点を整理。ぬめりやにおいを抑え、シンクまわりを清潔に使いやすくするため。"
     },
     {
       "id": "toilet-deep-clean",
@@ -107,7 +117,12 @@
       ],
       "products": [],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/toilet-deep-clean.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "トイレ掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "トイレ掃除の頻度、所要時間、家庭でできる手順、注意点を整理。便器まわりや床の汚れを整えて、においを出にくくするため。"
     },
     {
       "id": "aircon-filter",
@@ -179,7 +194,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/washer-tub.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "洗濯槽クリーナー（洗濯槽洗浄）の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "洗濯槽クリーナー（洗濯槽洗浄）の頻度、所要時間、家庭でできる手順、注意点を整理。洗濯槽の見えない汚れやにおいを整え、衣類を気持ちよく洗いやすくするため。"
     },
     {
       "id": "aircon-vent",
@@ -329,7 +349,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/bath-pipe-cleaner.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "浴室排水管クリーナーの頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "浴室排水管クリーナーの頻度、所要時間、家庭でできる手順、注意点を整理。排水口の奥のぬめりやにおいが気になる時に整えやすくするため。"
     },
     {
       "id": "bath-vent-filter",
@@ -363,7 +388,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/bath-vent-filter.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "浴室換気扇フィルター・表面掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "浴室換気扇フィルター・表面掃除の頻度、所要時間、家庭でできる手順、注意点を整理。換気効率を保ち、湿気がこもりにくい状態にするため。"
     },
     {
       "id": "bath-vent-internal",
@@ -385,7 +415,12 @@
       ],
       "products": [],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/bath-vent-internal.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "浴室換気扇内部掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "浴室換気扇内部掃除の頻度、所要時間、家庭でできる手順、注意点を整理。表面掃除で取れないほこりが気になる時に、内部清掃の必要性を確認するため。"
     },
     {
       "id": "anti-mold-smoke",
@@ -413,7 +448,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/anti-mold-smoke.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "浴室防カビ燻煙の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "浴室防カビ燻煙の頻度、所要時間、家庭でできる手順、注意点を整理。湿気の多い浴室でカビを増やしにくくするため。"
     },
     {
       "id": "mirror-scale",
@@ -447,7 +487,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/mirror-scale.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "浴室の水垢・ウロコ掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "浴室の水垢・ウロコ掃除の頻度、所要時間、家庭でできる手順、注意点を整理。鏡や蛇口まわりの白い汚れを整え、見た目をすっきりさせるため。"
     },
     {
       "id": "bathtub-apron",
@@ -469,7 +514,12 @@
       ],
       "products": [],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/bathtub-apron.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "浴槽エプロン内部チェックの頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "浴槽エプロン内部チェックの頻度、所要時間、家庭でできる手順、注意点を整理。浴槽まわりの見えにくい汚れやにおいの原因に気づきやすくするため。"
     },
     {
       "id": "kitchen-pipe",
@@ -497,7 +547,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/kitchen-pipe.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "キッチン排水管クリーナーの頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "キッチン排水管クリーナーの頻度、所要時間、家庭でできる手順、注意点を整理。排水管のぬめりやにおいが気になる時に整えやすくするため。"
     },
     {
       "id": "sink-polish",
@@ -531,7 +586,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/sink-polish.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "キッチンシンク磨きの頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "キッチンシンク磨きの頻度、所要時間、家庭でできる手順、注意点を整理。水垢やくすみを整え、シンクを気持ちよく使いやすくするため。"
     },
     {
       "id": "rangehood-filter",
@@ -567,7 +627,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/rangehood-filter.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "レンジフードフィルター・表面掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "レンジフードフィルター・表面掃除の頻度、所要時間、家庭でできる手順、注意点を整理。油汚れをためにくくし、換気しやすい状態を保つため。"
     },
     {
       "id": "sirocco-fan",
@@ -620,7 +685,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/sirocco-fan.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "レンジフード内部掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "レンジフード内部掃除の頻度、所要時間、家庭でできる手順、注意点を整理。レンジフード内部の油汚れを整え、においや換気の弱さを軽くするため。"
     },
     {
       "id": "fridge-area",
@@ -654,7 +724,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/fridge-area.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "冷蔵庫下・裏掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "冷蔵庫下・裏掃除の頻度、所要時間、家庭でできる手順、注意点を整理。冷蔵庫まわりのほこりを整え、においや虫の原因を減らしやすくするため。"
     },
     {
       "id": "washer-professional-cleaning",
@@ -675,7 +750,12 @@
       ],
       "products": [],
       "services": [],
-      "updatedAt": "2026-05-09"
+      "updatedAt": "2026-05-09",
+      "articlePath": "/articles/washer-professional-cleaning.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "洗濯機分解清掃の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "洗濯機分解清掃の頻度、所要時間、家庭でできる手順、注意点を整理。家庭で届きにくい洗濯機内部の汚れやにおいが気になる時の相談目安を確認するため。"
     },
     {
       "id": "dishwasher-clean",
@@ -703,7 +783,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/dishwasher-clean.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "食洗機庫内洗浄の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "食洗機庫内洗浄の頻度、所要時間、家庭でできる手順、注意点を整理。庫内のぬめりやにおいを整え、食器を気持ちよく洗いやすくするため。"
     },
     {
       "id": "dishwasher-nozzle-filter",
@@ -724,7 +809,12 @@
       ],
       "products": [],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/dishwasher-nozzle-filter.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "食洗機ノズル・フィルター確認の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "食洗機ノズル・フィルター確認の頻度、所要時間、家庭でできる手順、注意点を整理。洗い残りを減らし、食洗機の水流を保ちやすくするため。"
     },
     {
       "id": "dishwasher-packing",
@@ -758,7 +848,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/dishwasher-packing.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "食洗機まわりのパッキン掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "食洗機まわりのパッキン掃除の頻度、所要時間、家庭でできる手順、注意点を整理。パッキンまわりのぬめりやにおいを整え、水漏れに気づきやすくするため。"
     },
     {
       "id": "airpurifier-pre",
@@ -787,7 +882,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/airpurifier-pre.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "空気清浄機フィルター掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "空気清浄機フィルター掃除の頻度、所要時間、家庭でできる手順、注意点を整理。プレフィルターのほこりを整え、空気清浄機を使いやすい状態にするため。"
     },
     {
       "id": "humidifier-tank",
@@ -822,7 +922,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/humidifier-tank.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "加湿器タンク・トレー掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "加湿器タンク・トレー掃除の頻度、所要時間、家庭でできる手順、注意点を整理。タンクやトレーのぬめりを整え、においを出にくくするため。"
     },
     {
       "id": "humidifier-filter",
@@ -850,7 +955,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/humidifier-filter.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "加湿器フィルター掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "加湿器フィルター掃除の頻度、所要時間、家庭でできる手順、注意点を整理。加湿フィルターの汚れを整え、においや加湿量の低下を起こしにくくするため。"
     },
     {
       "id": "humidifier-citric",
@@ -884,7 +994,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/humidifier-citric.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "加湿器クエン酸洗浄の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "加湿器クエン酸洗浄の頻度、所要時間、家庭でできる手順、注意点を整理。白い水垢やにおいを整え、加湿器を気持ちよく使うため。"
     },
     {
       "id": "exterior-wall",
@@ -905,7 +1020,12 @@
       ],
       "products": [],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/exterior-wall.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "外壁・シーリングチェックの頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "外壁・シーリングチェックの頻度、所要時間、家庭でできる手順、注意点を整理。外壁やシーリングの小さな変化に気づきやすくするため。"
     },
     {
       "id": "site-drain",
@@ -939,7 +1059,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/site-drain.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "敷地排水口チェック・掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "敷地排水口チェック・掃除の頻度、所要時間、家庭でできる手順、注意点を整理。雨の日に水がたまりにくいよう、敷地の排水口を整えておくため。"
     },
     {
       "id": "weeding",
@@ -967,7 +1092,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/weeding.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "敷地まわりの雑草チェック・除去の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "敷地まわりの雑草チェック・除去の頻度、所要時間、家庭でできる手順、注意点を整理。虫や湿気が気になる場所を整え、外まわりをすっきり保つため。"
     },
     {
       "id": "balcony-waterproof",
@@ -988,7 +1118,12 @@
       ],
       "products": [],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/balcony-waterproof.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "ベランダ・バルコニー防水チェックの頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "ベランダ・バルコニー防水チェックの頻度、所要時間、家庭でできる手順、注意点を整理。床や立ち上がりの小さな劣化に気づきやすくするため。"
     },
     {
       "id": "balcony-drain",
@@ -1022,7 +1157,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/balcony-drain.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "ベランダ・バルコニー排水口掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "ベランダ・バルコニー排水口掃除の頻度、所要時間、家庭でできる手順、注意点を整理。雨水が流れやすい状態にして、水たまりを起こしにくくするため。"
     },
     {
       "id": "balcony-floor",
@@ -1056,7 +1196,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/balcony-floor.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "ベランダ・バルコニー床掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "ベランダ・バルコニー床掃除の頻度、所要時間、家庭でできる手順、注意点を整理。砂ぼこりや汚れを整え、洗濯物や室内に汚れを持ち込みにくくするため。"
     },
     {
       "id": "window-sash",
@@ -1094,7 +1239,12 @@
       "propertyTypes": [
         "apartment",
         "house"
-      ]
+      ],
+      "articlePath": "/articles/window-sash.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "窓サッシ・レール掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "窓サッシ・レール掃除の頻度、所要時間、家庭でできる手順、注意点を整理。サッシの砂ぼこりを整え、窓を開け閉めしやすくするため。"
     },
     {
       "id": "window-screen",
@@ -1122,7 +1272,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/window-screen.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "網戸掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "網戸掃除の頻度、所要時間、家庭でできる手順、注意点を整理。網戸のほこりを整え、風を通しやすくするため。"
     },
     {
       "id": "window-glass",
@@ -1156,7 +1311,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/window-glass.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "窓ガラス掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "窓ガラス掃除の頻度、所要時間、家庭でできる手順、注意点を整理。手あかや雨あとを整え、部屋を明るく感じやすくするため。"
     },
     {
       "id": "condensation",
@@ -1190,7 +1350,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/condensation.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "結露チェックの頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "結露チェックの頻度、所要時間、家庭でできる手順、注意点を整理。窓まわりの水分を整え、カビや傷みに気づきやすくするため。"
     },
     {
       "id": "air-supply-filter",
@@ -1224,7 +1389,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/air-supply-filter.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "給気口フィルター掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "給気口フィルター掃除の頻度、所要時間、家庭でできる手順、注意点を整理。給気口のほこりを整え、外気を取り込みやすい状態にするため。"
     },
     {
       "id": "move-out-check",
@@ -1258,7 +1428,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/move-out-check.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "退去前チェックの頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "退去前チェックの頻度、所要時間、家庭でできる手順、注意点を整理。退去前に小さな傷や汚れを確認し、慌てず整えるため。"
     },
     {
       "id": "water-heater-check",
@@ -1279,7 +1454,12 @@
       ],
       "products": [],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/water-heater-check.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "給湯器まわり確認の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "給湯器まわり確認の頻度、所要時間、家庭でできる手順、注意点を整理。給湯器まわりの異音・におい・障害物に気づきやすくするため。"
     },
     {
       "id": "smoke-alarm-test",
@@ -1300,7 +1480,12 @@
       ],
       "products": [],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/smoke-alarm-test.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "火災報知器動作確認の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "火災報知器動作確認の頻度、所要時間、家庭でできる手順、注意点を整理。電池切れや故障に気づきやすくし、いざという時に備えるため。"
     },
     {
       "id": "washstand-drain",
@@ -1334,7 +1519,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/washstand-drain.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "洗面台排水口掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "洗面台排水口掃除の頻度、所要時間、家庭でできる手順、注意点を整理。髪の毛やぬめりを整え、洗面台を気持ちよく使いやすくするため。"
     },
     {
       "id": "washstand-pipe-cleaner",
@@ -1362,7 +1552,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/washstand-pipe-cleaner.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "洗面台排水管クリーナーの頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "洗面台排水管クリーナーの頻度、所要時間、家庭でできる手順、注意点を整理。洗面台排水管のぬめりやにおいを整えやすくするため。"
     },
     {
       "id": "washstand-leak-check",
@@ -1383,7 +1578,12 @@
       ],
       "products": [],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/washstand-leak-check.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "洗面台下収納・水漏れ確認の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "洗面台下収納・水漏れ確認の頻度、所要時間、家庭でできる手順、注意点を整理。収納内の湿りや水漏れに早めに気づきやすくするため。"
     },
     {
       "id": "toilet-vent",
@@ -1417,7 +1617,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/toilet-vent.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "トイレ換気扇掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "トイレ換気扇掃除の頻度、所要時間、家庭でできる手順、注意点を整理。換気扇のほこりを整え、においがこもりにくい状態にするため。"
     },
     {
       "id": "toilet-nozzle",
@@ -1445,7 +1650,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/toilet-nozzle.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "温水洗浄ノズル掃除の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "温水洗浄ノズル掃除の頻度、所要時間、家庭でできる手順、注意点を整理。ノズルまわりの汚れを整え、気持ちよく使いやすくするため。"
     },
     {
       "id": "toilet-tank-valve-check",
@@ -1466,7 +1676,12 @@
       ],
       "products": [],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/toilet-tank-valve-check.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "トイレタンク・止水栓確認の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "トイレタンク・止水栓確認の頻度、所要時間、家庭でできる手順、注意点を整理。水の流れや止水栓の位置を確認し、トラブル時に慌てにくくするため。"
     },
     {
       "id": "movein-sink-coating",
@@ -1495,7 +1710,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/movein-sink-coating.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "シンク撥水コーティングの頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "シンク撥水コーティングの頻度、所要時間、家庭でできる手順、注意点を整理。入居直後のきれいな状態で行うと、水垢や汚れを予防しやすく、日々の掃除負担を軽くできます。"
     },
     {
       "id": "movein-stove-gap-cover",
@@ -1523,7 +1743,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/movein-stove-gap-cover.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "コンロ隙間カバー設置の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "コンロ隙間カバー設置の頻度、所要時間、家庭でできる手順、注意点を整理。後から掃除しにくいコンロ横・奥の隙間に、食材カスや油汚れが入り込むのを防ぎやすくします。"
     },
     {
       "id": "movein-fridge-mat",
@@ -1551,7 +1776,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/movein-fridge-mat.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "冷蔵庫下マット設置の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "冷蔵庫下マット設置の頻度、所要時間、家庭でできる手順、注意点を整理。冷蔵庫設置後は敷き直しが大変なため、搬入前または設置時に床の傷・凹み・水漏れ跡を予防しやすくします。"
     },
     {
       "id": "movein-anti-mold",
@@ -1580,7 +1810,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/movein-anti-mold.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "初回防カビ燻煙の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "初回防カビ燻煙の頻度、所要時間、家庭でできる手順、注意点を整理。カビが生える前の入居直後に浴室全体を予防し、きれいな状態を保ちやすくします。"
     },
     {
       "id": "movein-mirror-faucet-coating",
@@ -1610,7 +1845,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/movein-mirror-faucet-coating.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "鏡・水栓コーティングの頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "鏡・水栓コーティングの頻度、所要時間、家庭でできる手順、注意点を整理。鏡や水栓まわりの水垢、ウロコ汚れ、曇りを軽減し、掃除負担を増やしにくくします。"
     },
     {
       "id": "movein-washer-base",
@@ -1638,7 +1878,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/movein-washer-base.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "洗濯機かさ上げ台設置の頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "洗濯機かさ上げ台設置の頻度、所要時間、家庭でできる手順、注意点を整理。洗濯機設置後は動かすのが大変なため、搬入前または設置時に排水口まわりの掃除しやすさ、水漏れ確認、湿気・ホコリ対策を整えやすくします。"
     },
     {
       "id": "movein-aircon-drain-cap",
@@ -1667,7 +1912,12 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/movein-aircon-drain-cap.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "エアコン排水ホース防虫キャップ取り付けの頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "エアコン排水ホース防虫キャップ取り付けの頻度、所要時間、家庭でできる手順、注意点を整理。エアコンの排水ホースから虫が入り込む可能性を減らしやすくします。"
     },
     {
       "id": "movein-rental-photo",
@@ -1690,7 +1940,12 @@
       ],
       "products": [],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "articlePath": "/articles/movein-rental-photo.html",
+      "difficulty": "ふつう",
+      "diyScope": "見える範囲で対応",
+      "seoTitle": "入居時の傷・汚れを写真に残すの頻度と手順｜無理なく続けるメンテナンス",
+      "seoDescription": "入居時の傷・汚れを写真に残すの頻度、所要時間、家庭でできる手順、注意点を整理。退去時の原状回復トラブルを避けるため、入居直後の状態を写真で記録しておくと安心です。"
     }
   ]
 }
