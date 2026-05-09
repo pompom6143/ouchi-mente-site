@@ -1,6 +1,6 @@
 {
-  "version": "2026-05-08",
-  "updatedAt": "2026-05-08",
+  "version": "2026-05-09",
+  "updatedAt": "2026-05-09",
   "tasks": [
     {
       "id": "bath-drain",
@@ -657,98 +657,8 @@
       "updatedAt": "2026-05-08"
     },
     {
-      "id": "lint-filter",
-      "title": "糸くずフィルター掃除",
-      "category": "洗濯機",
-      "summary": "糸くずやぬめりをためにくくし、洗濯機を気持ちよく使うため。",
-      "recommendedFrequency": "週1回",
-      "estimatedMinutes": 5,
-      "steps": [
-        "糸くずフィルターを外す",
-        "たまったゴミを取る",
-        "水で軽く洗う",
-        "乾かして戻す"
-      ],
-      "tips": [
-        "機種ごとの外し方を確認してください。",
-        "破れや劣化がある場合は交換も検討してください。"
-      ],
-      "products": [],
-      "services": [],
-      "updatedAt": "2026-05-08"
-    },
-    {
-      "id": "washer-drain-filter",
-      "title": "排水フィルター掃除",
-      "category": "洗濯機",
-      "summary": "排水まわりの詰まりやにおいを出にくくするため。",
-      "recommendedFrequency": "月1回",
-      "estimatedMinutes": 10,
-      "steps": [
-        "排水フィルターの位置を確認する",
-        "水が出る場合に備えてタオルを置く",
-        "外せる範囲でゴミを取る",
-        "フィルターを戻す"
-      ],
-      "tips": [
-        "外せないタイプや戻せない不安がある場合は触らなくて大丈夫です。",
-        "水漏れがある場合は使用を止めて相談してください。"
-      ],
-      "products": [
-        {
-          "label": "掃除用ゴム手袋を見る",
-          "description": "排水口や油汚れの掃除をする時に手を守りやすい手袋です。",
-          "url": "https://a.r10.to/hkLq7V",
-          "type": "product"
-        }
-      ],
-      "services": [],
-      "updatedAt": "2026-05-08"
-    },
-    {
-      "id": "washer-drain",
-      "title": "洗濯機排水口掃除",
-      "category": "洗濯機",
-      "summary": "洗濯機まわりの排水不良やにおいを起こしにくくするため。",
-      "recommendedFrequency": "半年に1回",
-      "estimatedMinutes": 20,
-      "steps": [
-        "洗濯機の電源を切る",
-        "排水口まわりのほこりを取る",
-        "外せる部品だけ外して洗う",
-        "排水口ブラシで見える範囲を掃除する",
-        "部品を戻して水漏れがないか見る"
-      ],
-      "tips": [
-        "洗濯機を無理に動かさないでください。",
-        "手が届かない場合は専門業者に相談してください。"
-      ],
-      "products": [
-        {
-          "label": "掃除用ゴム手袋を見る",
-          "description": "排水口や油汚れの掃除をする時に手を守りやすい手袋です。",
-          "url": "https://a.r10.to/hkLq7V",
-          "type": "product"
-        },
-        {
-          "label": "排水口ブラシを見る",
-          "description": "排水口のすみや細い部分のぬめりを落としやすいブラシです。",
-          "url": "https://a.r10.to/hgfGMJ",
-          "type": "product"
-        },
-        {
-          "label": "パイプクリーナーを見る",
-          "description": "排水管のぬめりやにおいが気になる時に使いやすいクリーナーです。",
-          "url": "https://a.r10.to/hgJhJO",
-          "type": "product"
-        }
-      ],
-      "services": [],
-      "updatedAt": "2026-05-08"
-    },
-    {
       "id": "washer-professional-cleaning",
-      "title": "業者による洗濯機分解清掃",
+      "title": "洗濯機分解清掃",
       "category": "洗濯機",
       "summary": "家庭で届きにくい洗濯機内部の汚れやにおいが気になる時の相談目安を確認するため。",
       "recommendedFrequency": "年1回",
@@ -765,7 +675,7 @@
       ],
       "products": [],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-09"
     },
     {
       "id": "dishwasher-clean",
@@ -1180,7 +1090,11 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-09",
+      "propertyTypes": [
+        "apartment",
+        "house"
+      ]
     },
     {
       "id": "window-screen",
