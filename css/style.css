@@ -846,8 +846,8 @@ nav a:focus-visible {
 
 .screenshot-card img {
   width: 100%;
-  aspect-ratio: 776 / 1666;
-  object-fit: cover;
+  aspect-ratio: 990 / 1736;
+  object-fit: contain;
   object-position: top center;
   border-bottom: 1px solid var(--color-border);
 }
