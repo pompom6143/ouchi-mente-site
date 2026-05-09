@@ -51,25 +51,30 @@
     </header>
   `;
 
-  const appPromoHtml = (wrapInContainer) => {
+  const appPromoHtml = (target, wrapInContainer) => {
+    const isTaskPromo = target?.dataset?.commonAppPromo === "task";
+    const title = isTaskPromo ? "このメンテナンスを忘れず管理したい方へ" : "メンテナンスを忘れず管理したい方へ";
+    const description = isTaskPromo
+      ? "おうちメンテアプリなら、このメンテナンスを家庭に合った頻度でタスク管理できます。"
+      : "おうちメンテアプリなら、エアコン掃除や換気扇掃除など、定期的にやることをタスクとして管理できます。";
     const content = `
       <div class="media-cta">
         <div class="app-spotlight">
           <img src="${url("images/app-icon.png")}" alt="おうちメンテ アプリアイコン" />
           <div>
-            <h2 class="section-title">メンテナンスを忘れず管理したい方へ</h2>
-            <p>おうちメンテアプリなら、エアコン掃除や換気扇掃除など、定期的にやることをタスクとして管理できます。</p>
+            <h2 class="section-title">${title}</h2>
+            <p>${description}</p>
           </div>
         </div>
-        <div class="actions">
+        <div class="actions app-promo-actions">
           <a class="btn btn-secondary" href="${url("app/index.html")}">アプリ紹介を見る</a>
-          <a class="text-link" href="${appStoreUrl}" target="_blank" rel="noopener">App Storeで見る</a>
+          <a class="btn btn-secondary" href="${appStoreUrl}" target="_blank" rel="noopener">App Storeで見る</a>
         </div>
       </div>
     `;
 
     return `
-    <section class="section">
+    <section class="${isTaskPromo ? "app-promo-section" : "section"}">
       ${wrapInContainer ? `<div class="site-container section-narrow">${content}</div>` : content}
     </section>
   `;
@@ -104,7 +109,7 @@
     });
 
     document.querySelectorAll("[data-common-app-promo]").forEach((target) => {
-      target.outerHTML = appPromoHtml(!target.closest(".page-shell"));
+      target.outerHTML = appPromoHtml(target, !target.closest(".page-shell"));
     });
 
     document.querySelectorAll("[data-common-footer]").forEach((target) => {
