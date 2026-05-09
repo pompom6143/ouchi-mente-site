@@ -137,7 +137,19 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "maintenanceLevel": 2,
+      "levelLabel": "基本",
+      "difficulty": "かんたん",
+      "diyScope": "家庭で対応しやすい",
+      "articlePath": "/articles/aircon-cleaning-frequency.html",
+      "seoTitle": "エアコンフィルター掃除の頻度は？家庭でできる簡単手順と注意点",
+      "seoDescription": "エアコンフィルター掃除の頻度、家庭でできる掃除方法、注意点を解説。送風運転・内部乾燥はカビ対策Tipsとして紹介します。",
+      "targetKeywords": [
+        "エアコンフィルター掃除 頻度",
+        "エアコン フィルター 掃除 方法",
+        "エアコンフィルター 掃除しないとどうなる"
+      ]
     },
     {
       "id": "washer-tub",
@@ -195,7 +207,19 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "maintenanceLevel": 3,
+      "levelLabel": "見える範囲",
+      "difficulty": "ふつう",
+      "diyScope": "届く範囲だけ対応",
+      "articlePath": "/articles/aircon-vent-cleaning.html",
+      "seoTitle": "エアコン吹き出し口掃除はどこまでやる？届く範囲の掃除手順と注意点",
+      "seoDescription": "エアコン吹き出し口の黒い点や汚れが気になる時に、家庭で届く範囲の掃除手順と無理に分解しない注意点を解説します。",
+      "targetKeywords": [
+        "エアコン 吹き出し口 掃除",
+        "エアコン 吹き出し口 カビ 掃除",
+        "エアコン 黒い点 吹き出し口"
+      ]
     },
     {
       "id": "aircon-outdoor",
@@ -229,7 +253,16 @@
         }
       ],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "maintenanceLevel": 2,
+      "levelLabel": "外まわり",
+      "difficulty": "かんたん",
+      "diyScope": "見える範囲だけ対応",
+      "articlePath": "",
+      "targetKeywords": [
+        "エアコン 室外機 掃除",
+        "室外機 まわり 掃除"
+      ]
     },
     {
       "id": "aircon-cleaning",
@@ -251,7 +284,20 @@
       ],
       "products": [],
       "services": [],
-      "updatedAt": "2026-05-08"
+      "updatedAt": "2026-05-08",
+      "maintenanceLevel": 4,
+      "levelLabel": "専門相談",
+      "difficulty": "無理にDIYしない",
+      "diyScope": "業者依頼も検討",
+      "articlePath": "/articles/aircon-internal-cleaning.html",
+      "seoTitle": "エアコン内部クリーニングは自分でやるべき？業者依頼を検討する目安",
+      "seoDescription": "エアコン内部クリーニングが必要になる目安、家庭で確認できる範囲、無理に分解せず業者依頼を検討したいケースを解説します。",
+      "targetKeywords": [
+        "エアコン 内部クリーニング 必要",
+        "エアコン 内部掃除 自分で",
+        "エアコン クリーニング 業者 目安",
+        "エアコン カビ 臭い 業者"
+      ]
     },
     {
       "id": "bath-pipe-cleaner",
