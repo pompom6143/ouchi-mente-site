@@ -4,11 +4,20 @@ const categoryScript = document.currentScript;
 const categoryPageMap = {
   "エアコン": "aircon/index.html",
   "お風呂": "bathroom/index.html",
-  "浴室": "bathroom/index.html",
+  "浴室": "bath/index.html",
   "キッチン": "kitchen/index.html",
-  "洗面台": "drain/index.html",
+  "洗面台": "washstand/index.html",
+  "洗濯機": "washer/index.html",
+  "トイレ": "toilet/index.html",
+  "空気清浄機": "airpurifier/index.html",
+  "加湿器": "humidifier/index.html",
+  "換気": "ventilation/index.html",
+  "外まわり": "exterior/index.html",
   "ベランダ": "balcony/index.html",
-  "窓まわり": "balcony/index.html"
+  "窓まわり": "window/index.html",
+  "賃貸": "rental/index.html",
+  "設備": "equipment/index.html",
+  "その他": "other/index.html"
 };
 
 const categoryIntroMap = {
