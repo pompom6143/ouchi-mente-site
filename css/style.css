@@ -462,15 +462,19 @@ nav a:focus-visible {
 
 .article-card,
 .category-card,
+.worry-card,
 .related-card,
-.season-card {
+.season-card,
+.search-result-card {
   transition: border-color var(--transition), box-shadow var(--transition), transform var(--transition);
 }
 
 .article-card:hover,
 .category-card:hover,
+.worry-card:hover,
 .related-card:hover,
-.season-card:hover {
+.season-card:hover,
+.search-result-card:hover {
   border-color: var(--color-border-strong);
   box-shadow: var(--shadow-md);
   transform: translateY(-2px);
@@ -536,15 +540,21 @@ nav a:focus-visible {
 }
 
 .card-clickable.article-card,
+.card-clickable.category-card,
+.card-clickable.worry-card,
 .card-clickable.related-card,
-.card-clickable.level-card {
+.card-clickable.level-card,
+.card-clickable.search-result-card {
   position: relative;
   padding-right: 54px;
 }
 
 .card-clickable.article-card::after,
+.card-clickable.category-card::after,
+.card-clickable.worry-card::after,
 .card-clickable.related-card::after,
-.card-clickable.level-card::after {
+.card-clickable.level-card::after,
+.card-clickable.search-result-card::after {
   content: ">";
   position: absolute;
   top: 50%;
@@ -1204,12 +1214,13 @@ nav a:focus-visible {
   }
 
   header.nav-open .header-inner nav {
-    max-height: 260px;
+    max-height: 360px;
     opacity: 1;
     padding-top: 6px;
   }
 
   .site-nav {
+    flex-direction: column;
     align-items: stretch;
     gap: 10px;
   }
@@ -1238,6 +1249,7 @@ nav a:focus-visible {
   .header-search {
     grid-template-columns: minmax(0, 1fr) 42px;
     width: 100%;
+    box-shadow: var(--shadow-sm);
   }
 
   .breadcrumb {

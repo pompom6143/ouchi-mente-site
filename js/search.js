@@ -75,7 +75,7 @@ const searchFields = (item) =>
     .toLowerCase();
 
 const resultCard = (item) => `
-  <article class="search-result-card">
+  <a class="search-result-card card-clickable" href="${escapeSearchHtml(item.url)}">
     <span class="meta">${escapeSearchHtml(item.type)}</span>
     <h2>${escapeSearchHtml(item.title)}</h2>
     <p>${escapeSearchHtml(item.description)}</p>
@@ -83,8 +83,8 @@ const resultCard = (item) => `
       ${item.category ? `<span>${escapeSearchHtml(item.category)}</span>` : ""}
       ${(item.tags || []).slice(0, 4).map((tag) => `<span>${escapeSearchHtml(tag)}</span>`).join("")}
     </div>
-    <a class="card-link" href="${escapeSearchHtml(item.url)}">ページを見る</a>
-  </article>
+    <span class="card-link">ページを見る</span>
+  </a>
 `;
 
 const buildIndex = (tasks, features) => {
@@ -139,12 +139,11 @@ const renderEmptyState = (container) => {
       </div>
       <div class="grid category-grid">
         ${["エアコン", "お風呂", "キッチン", "洗濯機", "入居時準備", "窓まわり"].map((category) => `
-          <article class="category-card">
-            <span class="category-label">${escapeSearchHtml(category)}</span>
+          <a class="category-card card-clickable" href="${escapeSearchHtml(categoryPageMap[category])}">
             <h3>${escapeSearchHtml(category)}</h3>
             <p>${escapeSearchHtml(categoryIntroMap[category])}</p>
-            <a class="card-link" href="${escapeSearchHtml(categoryPageMap[category])}">カテゴリを見る</a>
-          </article>
+            <span class="card-link">カテゴリを見る</span>
+          </a>
         `).join("")}
       </div>
     </section>

@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     container.innerHTML = features
       .map((feature) => `
-        <article class="article-card feature-card">
+        <a class="article-card feature-card card-clickable" href="${escapeFeatureHtml(feature.url)}">
           <span class="meta">${escapeFeatureHtml(feature.category)}</span>
           <h3>${escapeFeatureHtml(feature.title)}</h3>
           <p>${escapeFeatureHtml(feature.description)}</p>
@@ -32,8 +32,8 @@ document.addEventListener("DOMContentLoaded", async () => {
             ${(feature.tags || []).map((tag) => `<span>${escapeFeatureHtml(tag)}</span>`).join("")}
           </div>
           <p class="muted-text">${escapeFeatureHtml(feature.readTime)}</p>
-          <a class="card-link" href="${escapeFeatureHtml(feature.url)}">読む</a>
-        </article>
+          <span class="card-link">読む</span>
+        </a>
       `)
       .join("");
   } catch (error) {
