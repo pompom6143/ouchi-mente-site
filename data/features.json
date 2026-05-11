@@ -9,7 +9,7 @@
       "tags": ["頻度", "月1回", "チェックリスト", "アプリ"],
       "targetKeywords": ["家 メンテナンス 頻度", "家 メンテナンス 一覧", "掃除 頻度 管理"],
       "readTime": "約7分",
-      "url": "/features/maintenance-frequency-list.html"
+      "url": "/features/maintenance-frequency-list"
     },
     {
       "slug": "aircon-cleaning-frequency",
@@ -20,7 +20,7 @@
       "tags": ["エアコン", "頻度", "フィルター", "内部クリーニング"],
       "targetKeywords": ["エアコン 掃除 頻度", "エアコン フィルター 掃除 頻度", "エアコン 内部クリーニング 頻度"],
       "readTime": "約6分",
-      "url": "/features/aircon-cleaning-frequency.html"
+      "url": "/features/aircon-cleaning-frequency"
     },
     {
       "slug": "aircon-not-cleaning",
@@ -31,7 +31,7 @@
       "tags": ["エアコン", "放置", "カビ", "電気代"],
       "targetKeywords": ["エアコン 掃除しないとどうなる", "エアコン カビ 臭い", "エアコン 電気代 掃除"],
       "readTime": "約5分",
-      "url": "/features/aircon-not-cleaning.html"
+      "url": "/features/aircon-not-cleaning"
     },
     {
       "slug": "drain-cleaning-frequency",
@@ -42,7 +42,7 @@
       "tags": ["排水溝", "頻度", "臭い", "ぬめり"],
       "targetKeywords": ["排水溝 掃除 頻度", "浴室 排水溝 掃除 頻度", "キッチン 排水溝 掃除 頻度"],
       "readTime": "約6分",
-      "url": "/features/drain-cleaning-frequency.html"
+      "url": "/features/drain-cleaning-frequency"
     },
     {
       "slug": "washer-tub-cleaning-frequency",
@@ -53,7 +53,7 @@
       "tags": ["洗濯槽", "頻度", "臭い", "クリーナー"],
       "targetKeywords": ["洗濯槽 洗浄 頻度", "洗濯槽クリーナー 頻度", "洗濯機 臭い"],
       "readTime": "約6分",
-      "url": "/features/washer-tub-cleaning-frequency.html"
+      "url": "/features/washer-tub-cleaning-frequency"
     },
     {
       "slug": "bath-vent-cleaning-frequency",
@@ -64,7 +64,7 @@
       "tags": ["浴室換気扇", "頻度", "カビ", "湿気"],
       "targetKeywords": ["浴室 換気扇 掃除 頻度", "お風呂 換気扇 掃除", "浴室 カビ 湿気"],
       "readTime": "約5分",
-      "url": "/features/bath-vent-cleaning-frequency.html"
+      "url": "/features/bath-vent-cleaning-frequency"
     },
     {
       "slug": "summer-aircon-prep",
@@ -75,7 +75,7 @@
       "tags": ["夏前", "エアコン", "試運転", "室外機"],
       "targetKeywords": ["夏前 エアコン 準備", "エアコン 試運転", "エアコン 冷房 前 掃除"],
       "readTime": "約6分",
-      "url": "/features/summer-aircon-prep.html"
+      "url": "/features/summer-aircon-prep"
     },
     {
       "slug": "maintenance-difference",
@@ -86,7 +86,7 @@
       "tags": ["10年後", "費用", "予防", "比較"],
       "targetKeywords": ["家 メンテナンス 必要性", "メンテナンスしないとどうなる", "家 メンテナンス 費用", "家 放置 リスク"],
       "readTime": "約8分",
-      "url": "/features/maintenance-difference.html"
+      "url": "/features/maintenance-difference"
     },
     {
       "slug": "move-in-maintenance",
@@ -97,7 +97,7 @@
       "tags": ["入居前", "チェックリスト", "新居準備", "アプリ"],
       "targetKeywords": ["入居前にやること", "入居前 チェックリスト", "引っ越し前にやること", "新居 入居前 準備"],
       "readTime": "約7分",
-      "url": "/features/move-in-maintenance.html"
+      "url": "/features/move-in-maintenance"
     },
     {
       "slug": "rainy-season-mold",
@@ -108,7 +108,7 @@
       "tags": ["梅雨", "カビ", "排水", "チェックリスト"],
       "targetKeywords": ["梅雨前 家メンテ", "梅雨前 掃除", "カビ 臭い 排水"],
       "readTime": "約7分",
-      "url": "/features/rainy-season-mold.html"
+      "url": "/features/rainy-season-mold"
     },
     {
       "slug": "minimum-maintenance-for-busy-home",
@@ -119,7 +119,7 @@
       "tags": ["共働き", "最低限", "掃除", "アプリ"],
       "targetKeywords": ["共働き 掃除 最低限", "家 メンテナンス 最低限", "掃除 忘れない アプリ"],
       "readTime": "約4分",
-      "url": "/features/minimum-maintenance-for-busy-home.html"
+      "url": "/features/minimum-maintenance-for-busy-home"
     },
     {
       "slug": "family-mold-dust-care",
@@ -130,7 +130,7 @@
       "tags": ["子育て", "カビ", "ホコリ", "空気"],
       "targetKeywords": ["子育て家庭 カビ対策", "赤ちゃん 家 掃除", "子ども ホコリ カビ 対策"],
       "readTime": "約5分",
-      "url": "/features/family-mold-dust-care.html"
+      "url": "/features/family-mold-dust-care"
     },
     {
       "slug": "autumn-maintenance-before-year-end",
@@ -141,7 +141,7 @@
       "tags": ["年末", "大掃除", "チェックリスト", "分散管理"],
       "targetKeywords": ["年末 家メンテ", "年末 大掃除", "大掃除 チェックリスト"],
       "readTime": "約7分",
-      "url": "/features/autumn-maintenance-before-year-end.html"
+      "url": "/features/autumn-maintenance-before-year-end"
     }
   ]
 }
