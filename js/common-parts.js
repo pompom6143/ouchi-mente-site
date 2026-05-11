@@ -2,8 +2,36 @@
   const currentScript = document.currentScript || document.querySelector('script[src$="common-parts.js"]');
   const siteRoot = currentScript ? new URL("../", currentScript.src) : new URL("./", window.location.href);
   const appStoreUrl = "https://apps.apple.com/jp/app/%E3%81%8A%E3%81%86%E3%81%A1%E3%83%A1%E3%83%B3%E3%83%86-%E6%8E%83%E9%99%A4-%E5%AE%B6%E4%BA%8B%E7%AE%A1%E7%90%86/id6742120333";
+  const googleAnalyticsId = "G-52P79PV7W5";
 
   const url = (path) => new URL(path, siteRoot).href;
+
+  const initGoogleAnalytics = () => {
+    const hostname = window.location.hostname;
+    const isProduction = hostname === "ouchi-mente.jp" || hostname.endsWith(".ouchi-mente.jp");
+
+    if (
+      !isProduction ||
+      window.__ouchiMenteGaInitialized ||
+      document.querySelector(`script[src*="googletagmanager.com/gtag/js?id=${googleAnalyticsId}"]`)
+    ) {
+      return;
+    }
+
+    window.__ouchiMenteGaInitialized = true;
+
+    const gtagScript = document.createElement("script");
+    gtagScript.async = true;
+    gtagScript.src = `https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`;
+    document.head.append(gtagScript);
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function gtag() {
+      window.dataLayer.push(arguments);
+    };
+    window.gtag("js", new Date());
+    window.gtag("config", googleAnalyticsId);
+  };
 
   const ensureHeadLink = (rel, href, type) => {
     const existing = document.head.querySelector(`link[rel="${rel}"]`);
@@ -25,6 +53,7 @@
     document.head.append(link);
   };
 
+  initGoogleAnalytics();
   ensureHeadLink("icon", url("images/app-icon.png"), "image/png");
   ensureHeadLink("apple-touch-icon", url("images/app-icon.png"));
 
