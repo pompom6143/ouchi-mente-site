@@ -2,6 +2,7 @@
   const currentScript = document.currentScript || document.querySelector('script[src$="common-parts.js"]');
   const siteRoot = currentScript ? new URL("../", currentScript.src) : new URL("./", window.location.href);
   const appStoreUrl = "https://apps.apple.com/jp/app/%E3%81%8A%E3%81%86%E3%81%A1%E3%83%A1%E3%83%B3%E3%83%86-%E6%8E%83%E9%99%A4-%E5%AE%B6%E4%BA%8B%E7%AE%A1%E7%90%86/id6742120333";
+  const githubUrl = "https://github.com/pompom6143/";
   const googleAnalyticsId = "G-52P79PV7W5";
 
   const url = (path) => new URL(path, siteRoot).href;
@@ -120,6 +121,39 @@
   `;
   };
 
+  const formatLastModified = () => {
+    const date = new Date(document.lastModified);
+
+    if (Number.isNaN(date.getTime())) {
+      return "";
+    }
+
+    return `${date.getFullYear()}年${date.getMonth() + 1}月${date.getDate()}日`;
+  };
+
+  const authorHtml = () => {
+    const updated = formatLastModified();
+
+    return `
+      <aside class="author-card" aria-labelledby="author-card-title">
+        <div class="author-card__media">
+          <img src="${url("images/operator-portrait.png")}" alt="おうちメンテ 運営者 本田雄大のイラスト" width="78" height="78" loading="lazy" decoding="async" />
+        </div>
+        <div class="author-card__body">
+          <p class="author-card__eyebrow">この記事を書いた人</p>
+          <h2 id="author-card-title">本田雄大</h2>
+          <p>注文住宅を建築中の子育て世帯・個人開発者。小さな娘と犬との暮らしの中で、「ズボラでも続けられる家メンテ」を初心者目線で整理しています。専門家ぶるのではなく、実際に家を長く大切に使いたい当事者として、おうちメンテを作っています。</p>
+          <div class="author-card__links">
+            <a class="text-link" href="${url("about/")}">運営者情報</a>
+            <a class="text-link" href="${appStoreUrl}" target="_blank" rel="noopener">App Store</a>
+            <a class="text-link" href="${githubUrl}" target="_blank" rel="noopener">GitHub</a>
+          </div>
+          ${updated ? `<p class="author-card__updated">最終更新日：<time datetime="${new Date(document.lastModified).toISOString().slice(0, 10)}">${updated}</time></p>` : ""}
+        </div>
+      </aside>
+    `;
+  };
+
   const footerHtml = () => `
     <footer class="footer">
       <div class="site-container footer-inner">
@@ -155,6 +189,43 @@
 
     document.querySelectorAll("[data-common-footer]").forEach((target) => {
       target.outerHTML = footerHtml();
+    });
+  };
+
+  const renderAuthorCards = () => {
+    const pathname = window.location.pathname;
+    const canonicalHref = document.querySelector('link[rel="canonical"]')?.href || "";
+    const canonicalPath = canonicalHref ? new URL(canonicalHref).pathname : "";
+    const pathForCheck = `${pathname} ${canonicalPath}`;
+    const hasArticleMeta = document.querySelector('meta[property="og:type"][content="article"]');
+    const hasArticleBody = document.querySelector(".article-content, .comparison-card");
+    const isArticlePath = /\/(articles|features)\/[^/\s]+(?:\.html)?/.test(pathForCheck);
+    const isIndexPage = /\/(articles|features)\/(?:index\.html)?(?:\s|$)/.test(pathForCheck);
+    const isArticlePage = !isIndexPage && (hasArticleMeta || hasArticleBody || isArticlePath) && isArticlePath;
+
+    if (!isArticlePage || document.querySelector(".author-card")) {
+      return;
+    }
+
+    const articleMain = document.querySelector(".article-main") || document.querySelector("main.feature-special") || document.querySelector("main");
+
+    if (!articleMain) {
+      return;
+    }
+
+    articleMain.insertAdjacentHTML("beforeend", authorHtml());
+  };
+
+  const renderUpdatedDates = () => {
+    const updated = formatLastModified();
+
+    if (!updated) {
+      return;
+    }
+
+    document.querySelectorAll("[data-page-updated]").forEach((target) => {
+      const date = new Date(document.lastModified);
+      target.innerHTML = `<time datetime="${date.toISOString().slice(0, 10)}">${updated}</time>`;
     });
   };
 
@@ -199,6 +270,8 @@
 
   document.addEventListener("DOMContentLoaded", () => {
     renderCommonParts();
+    renderAuthorCards();
+    renderUpdatedDates();
     initNavigation();
     initHeaderSearch();
   });
