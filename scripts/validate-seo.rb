@@ -7,6 +7,7 @@ require "uri"
 
 SITE_ORIGIN = "https://ouchi-mente.jp"
 FEATURES_DIR = "features"
+ARTICLES_DIR = "articles"
 
 errors = []
 
@@ -24,50 +25,61 @@ def canonical_path_for_html(path)
   path.sub(%r{/index\.html$}, "/")
 end
 
-feature_files = Dir["#{FEATURES_DIR}/*.html"].reject { |path| File.basename(path) == "index.html" }.sort
-feature_slugs = feature_files.map { |path| File.basename(path, ".html") }
+def validate_extensionless_section!(errors, dir)
+  files = Dir["#{dir}/*.html"].reject { |path| File.basename(path) == "index.html" }.sort
+  slugs = files.map { |path| File.basename(path, ".html") }
 
-feature_files.each do |path|
-  slug = File.basename(path, ".html")
-  expected_url = "#{SITE_ORIGIN}/features/#{slug}"
-  source = read(path)
+  files.each do |path|
+    slug = File.basename(path, ".html")
+    expected_url = "#{SITE_ORIGIN}/#{dir}/#{slug}"
+    source = read(path)
 
-  canonical = source[/<link\s+rel="canonical"\s+href="([^"]+)"/, 1]
-  errors << "#{path}: missing canonical" unless canonical
-  errors << "#{path}: canonical must be #{expected_url}, got #{canonical}" if canonical && canonical != expected_url
+    canonical = source[/<link\s+rel="canonical"\s+href="([^"]+)"/, 1]
+    errors << "#{path}: missing canonical" unless canonical
+    errors << "#{path}: canonical must be #{expected_url}, got #{canonical}" if canonical && canonical != expected_url
 
-  og_url = source[/<meta\s+property="og:url"\s+content="([^"]+)"/, 1]
-  errors << "#{path}: og:url must be #{expected_url}, got #{og_url}" if og_url && og_url != expected_url
+    og_url = source[/<meta\s+property="og:url"\s+content="([^"]+)"/, 1]
+    errors << "#{path}: og:url must be #{expected_url}, got #{og_url}" if og_url && og_url != expected_url
 
-  if source.include?("mainEntityOfPage")
-    main_entity = source[/"mainEntityOfPage"\s*:\s*"([^"]+)"/, 1]
-    errors << "#{path}: mainEntityOfPage must be #{expected_url}, got #{main_entity}" if main_entity != expected_url
+    if source.include?("mainEntityOfPage")
+      main_entity = source[/"mainEntityOfPage"\s*:\s*"([^"]+)"/, 1]
+      errors << "#{path}: mainEntityOfPage must be #{expected_url}, got #{main_entity}" if main_entity != expected_url
+    end
+
+    h1_count = source.scan(/<h1[\s>]/).length
+    errors << "#{path}: expected exactly one h1, got #{h1_count}" unless h1_count == 1
   end
 
-  h1_count = source.scan(/<h1[\s>]/).length
-  errors << "#{path}: expected exactly one h1, got #{h1_count}" unless h1_count == 1
+  [files, slugs]
 end
+
+feature_files, feature_slugs = validate_extensionless_section!(errors, FEATURES_DIR)
+article_files, article_slugs = validate_extensionless_section!(errors, ARTICLES_DIR)
 
 all_html = Dir["**/*.html"].sort
 all_html.each do |path|
   source = read(path)
-  feature_slugs.each do |slug|
-    bad_patterns = [
-      "https://ouchi-mente.jp/features/#{slug}.html",
-      "/features/#{slug}.html",
-      "features/#{slug}.html"
-    ]
-    bad_patterns.each do |pattern|
-      errors << "#{path}: feature link should omit .html: #{pattern}" if source.include?(pattern)
+  { FEATURES_DIR => feature_slugs, ARTICLES_DIR => article_slugs }.each do |dir, slugs|
+    slugs.each do |slug|
+      bad_patterns = [
+        "https://ouchi-mente.jp/#{dir}/#{slug}.html",
+        "/#{dir}/#{slug}.html",
+        "#{dir}/#{slug}.html"
+      ]
+      bad_patterns.each do |pattern|
+        errors << "#{path}: #{dir} link should omit .html: #{pattern}" if source.include?(pattern)
+      end
     end
   end
 end
 
-feature_files.each do |path|
-  source = read(path)
-  feature_slugs.each do |slug|
-    pattern = "href=\"#{slug}.html\""
-    errors << "#{path}: feature link should omit .html: #{pattern}" if source.include?(pattern)
+[ [FEATURES_DIR, feature_files, feature_slugs], [ARTICLES_DIR, article_files, article_slugs] ].each do |dir, files, slugs|
+  files.each do |path|
+    source = read(path)
+    slugs.each do |slug|
+      pattern = "href=\"#{slug}.html\""
+      errors << "#{path}: #{dir} link should omit .html: #{pattern}" if source.include?(pattern)
+    end
   end
 end
 
@@ -101,6 +113,10 @@ extra.each { |url| errors << "sitemap.xml: extra non-canonical URL #{SITE_ORIGIN
 
 sitemap_urls.grep(%r{^features/.+\.html$}).each do |url|
   errors << "sitemap.xml: feature URL should omit .html: #{SITE_ORIGIN}/#{url}"
+end
+
+sitemap_urls.grep(%r{^articles/.+\.html$}).each do |url|
+  errors << "sitemap.xml: article URL should omit .html: #{SITE_ORIGIN}/#{url}"
 end
 
 if errors.empty?
