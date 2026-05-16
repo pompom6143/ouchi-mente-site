@@ -55,8 +55,8 @@
   };
 
   initGoogleAnalytics();
-  ensureHeadLink("icon", url("images/app-icon.png"), "image/png");
-  ensureHeadLink("apple-touch-icon", url("images/app-icon.png"));
+  ensureHeadLink("icon", url("favicon-192.png"), "image/png");
+  ensureHeadLink("apple-touch-icon", url("apple-touch-icon.png"));
 
   const headerHtml = () => `
     <header class="site-header">
