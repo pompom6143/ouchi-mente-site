@@ -78,6 +78,8 @@ const renderRecommendations = (task) => {
         .replace(/見る$/, "");
       const destinationText = entry.url.includes("a.r10.to")
         ? "楽天市場で見る"
+        : entry.url.includes("amzn.to") || entry.url.includes("amazon.")
+          ? "Amazonで見る"
         : entry.type === "service"
           ? "サービスサイトを見る"
           : "詳細を見る";
@@ -103,8 +105,7 @@ const renderTaskMeta = (task) => `
   <dl class="task-meta-list">
     <div><dt>頻度</dt><dd>${escapeHtml(task.recommendedFrequency)}</dd></div>
     <div><dt>時間</dt><dd>${escapeHtml(task.estimatedMinutes)}分</dd></div>
-    <div><dt>難易度</dt><dd>${escapeHtml(task.difficulty || "ふつう")}</dd></div>
-    <div><dt>DIY目安</dt><dd>${escapeHtml(task.diyScope || "見える範囲で対応")}</dd></div>
+    <div><dt>難易度</dt><dd>${escapeHtml(task.difficulty || "初心者でも簡単")}</dd></div>
   </dl>
 `;
 
@@ -164,10 +165,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         node.textContent = `${task.estimatedMinutes}分`;
       });
       root.querySelectorAll("[data-task-difficulty]").forEach((node) => {
-        node.textContent = task.difficulty || "ふつう";
-      });
-      root.querySelectorAll("[data-task-diy]").forEach((node) => {
-        node.textContent = task.diyScope || "見える範囲で対応";
+        node.textContent = task.difficulty || "初心者でも簡単";
       });
       root.querySelectorAll("[data-task-steps]").forEach((node) => {
         node.innerHTML = renderSteps(task.steps);

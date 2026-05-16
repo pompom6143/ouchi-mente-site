@@ -105,7 +105,7 @@ const buildIndex = (tasks, features) => {
     title: task.title,
     description: task.seoDescription || task.summary,
     category: task.category,
-    tags: [task.category, task.recommendedFrequency, task.difficulty, task.diyScope].filter(Boolean),
+    tags: [task.category, task.recommendedFrequency, task.difficulty].filter(Boolean),
     targetKeywords: [task.title, task.seoTitle, task.seoDescription, ...(categorySynonyms[task.category] || [])],
     slug: task.id,
     summary: task.summary,
